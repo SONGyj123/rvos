@@ -1,0 +1,138 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+FW_JUMP_ADDR	sbi_main.c	6;"	d	file:
+PT_A0	sbi_trap_context_struct.h	22;"	d
+PT_A1	sbi_trap_context_struct.h	23;"	d
+PT_A2	sbi_trap_context_struct.h	24;"	d
+PT_A3	sbi_trap_context_struct.h	25;"	d
+PT_A4	sbi_trap_context_struct.h	26;"	d
+PT_A5	sbi_trap_context_struct.h	27;"	d
+PT_A6	sbi_trap_context_struct.h	28;"	d
+PT_A7	sbi_trap_context_struct.h	29;"	d
+PT_FP	sbi_trap_context_struct.h	7;"	d
+PT_GP	sbi_trap_context_struct.h	37;"	d
+PT_MEPC	sbi_trap_context_struct.h	5;"	d
+PT_MSTATUS	sbi_trap_context_struct.h	38;"	d
+PT_RA	sbi_trap_context_struct.h	6;"	d
+PT_S0	sbi_trap_context_struct.h	8;"	d
+PT_S1	sbi_trap_context_struct.h	9;"	d
+PT_S10	sbi_trap_context_struct.h	18;"	d
+PT_S11	sbi_trap_context_struct.h	19;"	d
+PT_S2	sbi_trap_context_struct.h	10;"	d
+PT_S3	sbi_trap_context_struct.h	11;"	d
+PT_S4	sbi_trap_context_struct.h	12;"	d
+PT_S5	sbi_trap_context_struct.h	13;"	d
+PT_S6	sbi_trap_context_struct.h	14;"	d
+PT_S7	sbi_trap_context_struct.h	15;"	d
+PT_S8	sbi_trap_context_struct.h	16;"	d
+PT_S9	sbi_trap_context_struct.h	17;"	d
+PT_SIZE	sbi_trap_context_struct.h	4;"	d
+PT_SP	sbi_trap_context_struct.h	20;"	d
+PT_T0	sbi_trap_context_struct.h	30;"	d
+PT_T1	sbi_trap_context_struct.h	31;"	d
+PT_T2	sbi_trap_context_struct.h	32;"	d
+PT_T3	sbi_trap_context_struct.h	33;"	d
+PT_T4	sbi_trap_context_struct.h	34;"	d
+PT_T5	sbi_trap_context_struct.h	35;"	d
+PT_T6	sbi_trap_context_struct.h	36;"	d
+PT_TP	sbi_trap_context_struct.h	21;"	d
+SYS_CALL	sbi_trap.c	6;"	d	file:
+SYS_CALL_RD_HARID	sbi_trap.c	9;"	d	file:
+SYS_CALL_UART_SEND_CHAR	sbi_trap.c	7;"	d	file:
+SYS_CALL_UART_SEND_STRING	sbi_trap.c	8;"	d	file:
+TIMER_INT	sbi_trap.c	11;"	d	file:
+__CONTEXT_STR_H	sbi_trap_context_struct.h	2;"	d
+__SBI_TRAP_H	sbi_trap.h	2;"	d
+__SBI_TRAP_REG_H	sbi_trap_reg.h	2;"	d
+_start	sbi_boot.S	/^_start:$/;"	l
+a0	sbi_trap_reg.h	/^	unsigned long a0;$/;"	m	struct:sbi_context_str	access:public
+a1	sbi_trap_reg.h	/^	unsigned long a1;$/;"	m	struct:sbi_context_str	access:public
+a2	sbi_trap_reg.h	/^	unsigned long a2;$/;"	m	struct:sbi_context_str	access:public
+a3	sbi_trap_reg.h	/^	unsigned long a3;$/;"	m	struct:sbi_context_str	access:public
+a4	sbi_trap_reg.h	/^	unsigned long a4;$/;"	m	struct:sbi_context_str	access:public
+a5	sbi_trap_reg.h	/^	unsigned long a5;$/;"	m	struct:sbi_context_str	access:public
+a6	sbi_trap_reg.h	/^	unsigned long a6;$/;"	m	struct:sbi_context_str	access:public
+a7	sbi_trap_reg.h	/^	unsigned long a7;$/;"	m	struct:sbi_context_str	access:public
+gp	sbi_trap_reg.h	/^	unsigned long gp;$/;"	m	struct:sbi_context_str	access:public
+mepc	sbi_trap_reg.h	/^	unsigned long mepc;$/;"	m	struct:sbi_context_str	access:public
+mstatus	sbi_trap_reg.h	/^	unsigned long mstatus;$/;"	m	struct:sbi_context_str	access:public
+ra	sbi_trap_reg.h	/^	unsigned long ra;$/;"	m	struct:sbi_context_str	access:public
+s0	sbi_trap_reg.h	/^	unsigned long s0;$/;"	m	struct:sbi_context_str	access:public
+s1	sbi_trap_reg.h	/^	unsigned long s1;$/;"	m	struct:sbi_context_str	access:public
+s10	sbi_trap_reg.h	/^	unsigned long s10;$/;"	m	struct:sbi_context_str	access:public
+s11	sbi_trap_reg.h	/^	unsigned long s11;$/;"	m	struct:sbi_context_str	access:public
+s2	sbi_trap_reg.h	/^	unsigned long s2;$/;"	m	struct:sbi_context_str	access:public
+s3	sbi_trap_reg.h	/^	unsigned long s3;$/;"	m	struct:sbi_context_str	access:public
+s4	sbi_trap_reg.h	/^	unsigned long s4;$/;"	m	struct:sbi_context_str	access:public
+s5	sbi_trap_reg.h	/^	unsigned long s5;$/;"	m	struct:sbi_context_str	access:public
+s6	sbi_trap_reg.h	/^	unsigned long s6;$/;"	m	struct:sbi_context_str	access:public
+s7	sbi_trap_reg.h	/^	unsigned long s7;$/;"	m	struct:sbi_context_str	access:public
+s8	sbi_trap_reg.h	/^	unsigned long s8;$/;"	m	struct:sbi_context_str	access:public
+s9	sbi_trap_reg.h	/^	unsigned long s9;$/;"	m	struct:sbi_context_str	access:public
+sbi_context_str	sbi_trap_reg.h	/^struct sbi_context_str {$/;"	s
+sbi_context_str::a0	sbi_trap_reg.h	/^	unsigned long a0;$/;"	m	struct:sbi_context_str	access:public
+sbi_context_str::a1	sbi_trap_reg.h	/^	unsigned long a1;$/;"	m	struct:sbi_context_str	access:public
+sbi_context_str::a2	sbi_trap_reg.h	/^	unsigned long a2;$/;"	m	struct:sbi_context_str	access:public
+sbi_context_str::a3	sbi_trap_reg.h	/^	unsigned long a3;$/;"	m	struct:sbi_context_str	access:public
+sbi_context_str::a4	sbi_trap_reg.h	/^	unsigned long a4;$/;"	m	struct:sbi_context_str	access:public
+sbi_context_str::a5	sbi_trap_reg.h	/^	unsigned long a5;$/;"	m	struct:sbi_context_str	access:public
+sbi_context_str::a6	sbi_trap_reg.h	/^	unsigned long a6;$/;"	m	struct:sbi_context_str	access:public
+sbi_context_str::a7	sbi_trap_reg.h	/^	unsigned long a7;$/;"	m	struct:sbi_context_str	access:public
+sbi_context_str::gp	sbi_trap_reg.h	/^	unsigned long gp;$/;"	m	struct:sbi_context_str	access:public
+sbi_context_str::mepc	sbi_trap_reg.h	/^	unsigned long mepc;$/;"	m	struct:sbi_context_str	access:public
+sbi_context_str::mstatus	sbi_trap_reg.h	/^	unsigned long mstatus;$/;"	m	struct:sbi_context_str	access:public
+sbi_context_str::ra	sbi_trap_reg.h	/^	unsigned long ra;$/;"	m	struct:sbi_context_str	access:public
+sbi_context_str::s0	sbi_trap_reg.h	/^	unsigned long s0;$/;"	m	struct:sbi_context_str	access:public
+sbi_context_str::s1	sbi_trap_reg.h	/^	unsigned long s1;$/;"	m	struct:sbi_context_str	access:public
+sbi_context_str::s10	sbi_trap_reg.h	/^	unsigned long s10;$/;"	m	struct:sbi_context_str	access:public
+sbi_context_str::s11	sbi_trap_reg.h	/^	unsigned long s11;$/;"	m	struct:sbi_context_str	access:public
+sbi_context_str::s2	sbi_trap_reg.h	/^	unsigned long s2;$/;"	m	struct:sbi_context_str	access:public
+sbi_context_str::s3	sbi_trap_reg.h	/^	unsigned long s3;$/;"	m	struct:sbi_context_str	access:public
+sbi_context_str::s4	sbi_trap_reg.h	/^	unsigned long s4;$/;"	m	struct:sbi_context_str	access:public
+sbi_context_str::s5	sbi_trap_reg.h	/^	unsigned long s5;$/;"	m	struct:sbi_context_str	access:public
+sbi_context_str::s6	sbi_trap_reg.h	/^	unsigned long s6;$/;"	m	struct:sbi_context_str	access:public
+sbi_context_str::s7	sbi_trap_reg.h	/^	unsigned long s7;$/;"	m	struct:sbi_context_str	access:public
+sbi_context_str::s8	sbi_trap_reg.h	/^	unsigned long s8;$/;"	m	struct:sbi_context_str	access:public
+sbi_context_str::s9	sbi_trap_reg.h	/^	unsigned long s9;$/;"	m	struct:sbi_context_str	access:public
+sbi_context_str::sp	sbi_trap_reg.h	/^	unsigned long sp;$/;"	m	struct:sbi_context_str	access:public
+sbi_context_str::t0	sbi_trap_reg.h	/^	unsigned long t0;$/;"	m	struct:sbi_context_str	access:public
+sbi_context_str::t1	sbi_trap_reg.h	/^	unsigned long t1;$/;"	m	struct:sbi_context_str	access:public
+sbi_context_str::t2	sbi_trap_reg.h	/^	unsigned long t2;$/;"	m	struct:sbi_context_str	access:public
+sbi_context_str::t3	sbi_trap_reg.h	/^	unsigned long t3;$/;"	m	struct:sbi_context_str	access:public
+sbi_context_str::t4	sbi_trap_reg.h	/^	unsigned long t4;$/;"	m	struct:sbi_context_str	access:public
+sbi_context_str::t5	sbi_trap_reg.h	/^	unsigned long t5;$/;"	m	struct:sbi_context_str	access:public
+sbi_context_str::t6	sbi_trap_reg.h	/^	unsigned long t6;$/;"	m	struct:sbi_context_str	access:public
+sbi_context_str::tp	sbi_trap_reg.h	/^	unsigned long tp;$/;"	m	struct:sbi_context_str	access:public
+sbi_ecall_handler	sbi_trap.c	/^void sbi_ecall_handler(int id, struct sbi_context_str *ptr)$/;"	f	signature:(int id, struct sbi_context_str *ptr)
+sbi_ecall_handler	sbi_trap.h	/^void sbi_ecall_handler(int id, struct sbi_context_str *ptr);$/;"	p	signature:(int id, struct sbi_context_str *ptr)
+sbi_exception_vec	sbi_trap.c	/^extern void sbi_exception_vec();$/;"	p	file:
+sbi_exception_vec	sbi_trap_entry.S	/^sbi_exception_vec:$/;"	l
+sbi_main	sbi_main.c	/^void sbi_main()$/;"	f
+sbi_trap_handler	sbi_trap.c	/^void sbi_trap_handler(struct sbi_context_str *ptr)$/;"	f	signature:(struct sbi_context_str *ptr)
+sbi_trap_handler	sbi_trap.h	/^void sbi_trap_handler(struct sbi_context_str *ptr);$/;"	p	signature:(struct sbi_context_str *ptr)
+sbi_trap_init	sbi_trap.c	/^void sbi_trap_init()$/;"	f
+sbi_trap_init	sbi_trap.h	/^void sbi_trap_init();$/;"	p	signature:()
+sp	sbi_trap_reg.h	/^	unsigned long sp;$/;"	m	struct:sbi_context_str	access:public
+stack0	sbi_boot.S	/^stack0:$/;"	l
+stack1	sbi_boot.S	/^stack1:$/;"	l
+stack2	sbi_boot.S	/^stack2:$/;"	l
+stack3	sbi_boot.S	/^stack3:$/;"	l
+t0	sbi_trap_reg.h	/^	unsigned long t0;$/;"	m	struct:sbi_context_str	access:public
+t1	sbi_trap_reg.h	/^	unsigned long t1;$/;"	m	struct:sbi_context_str	access:public
+t2	sbi_trap_reg.h	/^	unsigned long t2;$/;"	m	struct:sbi_context_str	access:public
+t3	sbi_trap_reg.h	/^	unsigned long t3;$/;"	m	struct:sbi_context_str	access:public
+t4	sbi_trap_reg.h	/^	unsigned long t4;$/;"	m	struct:sbi_context_str	access:public
+t5	sbi_trap_reg.h	/^	unsigned long t5;$/;"	m	struct:sbi_context_str	access:public
+t6	sbi_trap_reg.h	/^	unsigned long t6;$/;"	m	struct:sbi_context_str	access:public
+timer_init	timer.c	/^void timer_init()$/;"	f
+timer_int_handler	sbi_trap.c	/^void timer_int_handler(struct sbi_context_str *ptr)$/;"	f	signature:(struct sbi_context_str *ptr)
+timer_int_handler	sbi_trap.h	/^void timer_int_handler(struct sbi_context_str *ptr);$/;"	p	signature:(struct sbi_context_str *ptr)
+tp	sbi_trap_reg.h	/^	unsigned long tp;$/;"	m	struct:sbi_context_str	access:public
+uart_clk	uart.c	/^static unsigned int uart_clk = 1843200;$/;"	v	file:
+uart_init	uart.c	/^void uart_init()$/;"	f
+uart_send_char	uart.c	/^void uart_send_char(char c)$/;"	f	signature:(char c)
+uart_send_string	uart.c	/^void uart_send_string(char *s)$/;"	f	signature:(char *s)

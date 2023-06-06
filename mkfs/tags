@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BSIZE	mkfs.c	16;"	d	file:
+FSSIZE	mkfs.c	15;"	d	file:
+IBLOCK	mkfs.c	18;"	d	file:
+INODE_PER_BLOCK	mkfs.c	17;"	d	file:
+TYPE_DIR	mkfs.c	12;"	d	file:
+TYPE_FILE	mkfs.c	13;"	d	file:
+f_img	mkfs.c	/^int f_img;$/;"	v
+freeblock	mkfs.c	/^unsigned int freeblock = 4;$/;"	v
+freeinode	mkfs.c	/^unsigned int freeinode = 0;$/;"	v
+ialloc	mkfs.c	/^unsigned int ialloc(unsigned short type)$/;"	f	signature:(unsigned short type)
+iappend	mkfs.c	/^void iappend(unsigned int inum, void *xp, int n)$/;"	f	signature:(unsigned int inum, void *xp, int n)
+inode_which_block	mkfs.c	/^unsigned int inode_which_block(unsigned int inum, struct superblock sb)$/;"	f	signature:(unsigned int inum, struct superblock sb)
+main	mkfs.c	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+min	mkfs.c	19;"	d	file:
+rd_inode	mkfs.c	/^void rd_inode(unsigned int inum, struct dinode *dinode_buf)$/;"	f	signature:(unsigned int inum, struct dinode *dinode_buf)
+rd_sec	mkfs.c	/^void rd_sec(unsigned int n, void *buf)$/;"	f	signature:(unsigned int n, void *buf)
+sb	mkfs.c	/^struct superblock sb;$/;"	v	typeref:struct:superblock
+wr_inode	mkfs.c	/^void wr_inode(unsigned int inum, struct dinode *dinode_buf)$/;"	f	signature:(unsigned int inum, struct dinode *dinode_buf)
+wr_sec	mkfs.c	/^void wr_sec(unsigned int n, void *buf)$/;"	f	signature:(unsigned int n, void *buf)
+xint	mkfs.c	/^unsigned int xint(unsigned int val)$/;"	f	signature:(unsigned int val)
+xshort	mkfs.c	/^unsigned short xshort(unsigned short val)$/;"	f	signature:(unsigned short val)
+zero_blk	mkfs.c	/^char zero_blk[BSIZE];$/;"	v

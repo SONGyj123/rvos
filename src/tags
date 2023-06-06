@@ -1,0 +1,633 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BLK_SIZE	fs.h	4;"	d
+BSIZE	virt_disk.h	4;"	d
+FD_DEVICE	fd.h	/^	enum {FD_NONE, FD_PIPE, FD_INODE, FD_DEVICE} type;$/;"	e	enum:file::__anon2
+FD_INODE	fd.h	/^	enum {FD_NONE, FD_PIPE, FD_INODE, FD_DEVICE} type;$/;"	e	enum:file::__anon2
+FD_NONE	fd.h	/^	enum {FD_NONE, FD_PIPE, FD_INODE, FD_DEVICE} type;$/;"	e	enum:file::__anon2
+FD_PIPE	fd.h	/^	enum {FD_NONE, FD_PIPE, FD_INODE, FD_DEVICE} type;$/;"	e	enum:file::__anon2
+INODES_PER_BLK	fs.h	89;"	d
+MAX_FILE	fd.h	4;"	d
+MAX_FILE	fs.h	90;"	d
+MAX_OFILE	proc.h	15;"	d
+MAX_ORDER	buddy.h	4;"	d
+NDIRECT	fs.h	5;"	d
+NINDRIRECT	fs.h	6;"	d
+NUM	virt_disk.h	7;"	d
+PIPESIZE	pipe.h	10;"	d
+PLIC	plic.h	7;"	d
+PLIC_INT	src_trap.h	7;"	d
+PLIC_MCLAIM	plic.h	14;"	d
+PLIC_MENABLE	plic.h	10;"	d
+PLIC_MPRIORITY	plic.h	12;"	d
+PLIC_PENDING	plic.h	9;"	d
+PLIC_PRIORITY	plic.h	8;"	d
+PLIC_SCLAIM	plic.h	15;"	d
+PLIC_SENABLE	plic.h	11;"	d
+PLIC_SPRIORITY	plic.h	13;"	d
+R	virt_disk.c	5;"	d	file:
+RUNNABLE	proc.h	10;"	d
+RUNNING	proc.h	11;"	d
+R_VIRTIO_REG	virt_disk.h	48;"	d
+SLEEPING	proc.h	12;"	d
+SYS_fork	syscall.h	4;"	d
+SYS_open	syscall.h	9;"	d
+SYS_pipe	syscall.h	6;"	d
+SYS_print	syscall.h	10;"	d
+SYS_read	syscall.h	7;"	d
+SYS_sleep	syscall.h	5;"	d
+SYS_write	syscall.h	8;"	d
+State	buddy.h	/^enum State$/;"	g
+TIMER_INT	src_trap.h	6;"	d
+TO_KERNEL	fs.h	11;"	d
+TO_USER	fs.h	12;"	d
+TYPE_DIR	fs.h	8;"	d
+TYPE_FILE	fs.h	9;"	d
+UART0_IRQ	plic.h	4;"	d
+UNUSED	proc.h	8;"	d
+USED	proc.h	9;"	d
+VIRTIO0_IRQ	plic.h	5;"	d
+VIRTIO_BLK_F_CONFIG_WCE	virt_disk.h	39;"	d
+VIRTIO_BLK_F_MQ	virt_disk.h	40;"	d
+VIRTIO_BLK_F_RO	virt_disk.h	37;"	d
+VIRTIO_BLK_F_SCSI	virt_disk.h	38;"	d
+VIRTIO_BLK_T_IN	virt_disk.h	45;"	d
+VIRTIO_BLK_T_OUT	virt_disk.h	46;"	d
+VIRTIO_CONFIG_S_ACKNOWLEDGE	virt_disk.h	31;"	d
+VIRTIO_CONFIG_S_DRIVER	virt_disk.h	32;"	d
+VIRTIO_CONFIG_S_DRIVER_OK	virt_disk.h	33;"	d
+VIRTIO_CONFIG_S_FEATURES_OK	virt_disk.h	34;"	d
+VIRTIO_F_ANY_LAYOUT	virt_disk.h	41;"	d
+VIRTIO_MMIO_DEVICE_DESC_HIGH	virt_disk.h	28;"	d
+VIRTIO_MMIO_DEVICE_DESC_LOW	virt_disk.h	27;"	d
+VIRTIO_MMIO_DEVICE_FEATURES	virt_disk.h	13;"	d
+VIRTIO_MMIO_DEVICE_ID	virt_disk.h	11;"	d
+VIRTIO_MMIO_DRIVER_DESC_HIGH	virt_disk.h	26;"	d
+VIRTIO_MMIO_DRIVER_DESC_LOW	virt_disk.h	25;"	d
+VIRTIO_MMIO_DRIVER_FEATURES	virt_disk.h	14;"	d
+VIRTIO_MMIO_INTERRUPT_ACK	virt_disk.h	21;"	d
+VIRTIO_MMIO_INTERRUPT_STATUS	virt_disk.h	20;"	d
+VIRTIO_MMIO_MAGIC_VALUE	virt_disk.h	9;"	d
+VIRTIO_MMIO_QUEUE_DESC_HIGH	virt_disk.h	24;"	d
+VIRTIO_MMIO_QUEUE_DESC_LOW	virt_disk.h	23;"	d
+VIRTIO_MMIO_QUEUE_NOTIFY	virt_disk.h	19;"	d
+VIRTIO_MMIO_QUEUE_NUM	virt_disk.h	17;"	d
+VIRTIO_MMIO_QUEUE_NUM_MAX	virt_disk.h	16;"	d
+VIRTIO_MMIO_QUEUE_READY	virt_disk.h	18;"	d
+VIRTIO_MMIO_QUEUE_SEL	virt_disk.h	15;"	d
+VIRTIO_MMIO_STATUS	virt_disk.h	22;"	d
+VIRTIO_MMIO_VENDOR_ID	virt_disk.h	12;"	d
+VIRTIO_MMIO_VERSION	virt_disk.h	10;"	d
+VIRTIO_RING_F_EVENT_IDX	virt_disk.h	43;"	d
+VIRTIO_RING_F_INDIRECT_DESC	virt_disk.h	42;"	d
+VIRT_IO_BASE	virt_disk.h	6;"	d
+VRING_DESC_F_NEXT	virt_disk.h	59;"	d
+VRING_DESC_F_WRITE	virt_disk.h	60;"	d
+W_VIRTIO_REG	virt_disk.h	49;"	d
+ZOMBIE	proc.h	13;"	d
+_FREE	buddy.h	/^	_FREE$/;"	e	enum:State
+_SPLIT	buddy.h	/^	_SPLIT,$/;"	e	enum:State
+_USED	buddy.h	/^	_USED,$/;"	e	enum:State
+__BUDDY_H	buddy.h	2;"	d
+__FILE_DESCRIPTOR_H	fd.h	2;"	d
+__FS_H	fs.h	2;"	d
+__LOCKS_H	locks.h	2;"	d
+__PIPE_H	pipe.h	2;"	d
+__PLIC_H	plic.h	2;"	d
+__PROC_H	proc.h	2;"	d
+__SRC_TRAP_H	src_trap.h	2;"	d
+__SYSCALL_H	syscall.h	2;"	d
+__VIRT_DISK	virt_disk.h	2;"	d
+_start	kernel_boot.S	/^_start:$/;"	l
+a0	proc.h	/^  \/* 112 *\/ unsigned long a0;$/;"	m	struct:trapframe	access:public
+a1	proc.h	/^  \/* 120 *\/ unsigned long a1;$/;"	m	struct:trapframe	access:public
+a2	proc.h	/^  \/* 128 *\/ unsigned long a2;$/;"	m	struct:trapframe	access:public
+a3	proc.h	/^  \/* 136 *\/ unsigned long a3;$/;"	m	struct:trapframe	access:public
+a4	proc.h	/^  \/* 144 *\/ unsigned long a4;$/;"	m	struct:trapframe	access:public
+a5	proc.h	/^  \/* 152 *\/ unsigned long a5;$/;"	m	struct:trapframe	access:public
+a6	proc.h	/^  \/* 160 *\/ unsigned long a6;$/;"	m	struct:trapframe	access:public
+a7	proc.h	/^  \/* 168 *\/ unsigned long a7;$/;"	m	struct:trapframe	access:public
+acquire	locks.c	/^void acquire(struct spinlock *lk)$/;"	f	signature:(struct spinlock *lk)
+acquire	locks.h	/^void acquire(struct spinlock *lk);$/;"	p	signature:(struct spinlock *lk)
+addr	virt_disk.h	/^  unsigned long addr;$/;"	m	struct:virtq_desc	access:public
+align	fs.h	/^	unsigned long align;$/;"	m	struct:proghdr	access:public
+alloc3_desc	virt_disk.c	/^alloc3_desc(int *idx)$/;"	f	file:	signature:(int *idx)
+alloc_desc	virt_disk.c	/^alloc_desc()$/;"	f	file:
+avail	virt_disk.c	/^  struct virtq_avail *avail;$/;"	m	struct:disk	typeref:struct:disk::virtq_avail	file:	access:public
+b	virt_disk.c	/^    struct buf *b;$/;"	m	struct:disk::__anon1	typeref:struct:disk::__anon1::buf	file:	access:public
+back_to_kernel	proc.h	/^void back_to_kernel();$/;"	p	signature:()
+back_to_kernel	src_trap.c	/^void back_to_kernel()$/;"	f
+back_trace	back_trace.c	/^void back_trace()$/;"	f
+back_trace	src_trap.c	/^extern void back_trace();$/;"	p	file:
+blknum_to_addr	fs.c	/^unsigned int blknum_to_addr(struct inode *ip, unsigned int blknum)$/;"	f	signature:(struct inode *ip, unsigned int blknum)
+blockno	virt_disk.h	/^	unsigned int blockno;$/;"	m	struct:buf	access:public
+buddy_alloc	buddy.c	/^unsigned long buddy_alloc(int sz)$/;"	f	signature:(int sz)
+buddy_alloc	buddy.h	/^unsigned long buddy_alloc(int sz);$/;"	p	signature:(int sz)
+buddy_blk	buddy.h	/^struct buddy_blk{$/;"	s
+buddy_blk::left	buddy.h	/^	struct buddy_blk *left;$/;"	m	struct:buddy_blk	typeref:struct:buddy_blk::buddy_blk	access:public
+buddy_blk::order	buddy.h	/^	int order;$/;"	m	struct:buddy_blk	access:public
+buddy_blk::right	buddy.h	/^	struct buddy_blk *right;$/;"	m	struct:buddy_blk	typeref:struct:buddy_blk::buddy_blk	access:public
+buddy_blk::staddr	buddy.h	/^	unsigned long staddr;$/;"	m	struct:buddy_blk	access:public
+buddy_blk::state	buddy.h	/^	enum State state;$/;"	m	struct:buddy_blk	typeref:enum:buddy_blk::State	access:public
+buf	virt_disk.h	/^struct buf$/;"	s
+buf::blockno	virt_disk.h	/^	unsigned int blockno;$/;"	m	struct:buf	access:public
+buf::data	virt_disk.h	/^	unsigned char data[BSIZE];$/;"	m	struct:buf	access:public
+buf::dev	virt_disk.h	/^	unsigned int dev;$/;"	m	struct:buf	access:public
+buf::disk	virt_disk.h	/^	int disk;$/;"	m	struct:buf	access:public
+buf::nxt	virt_disk.h	/^	struct buf *nxt;$/;"	m	struct:buf	typeref:struct:buf::buf	access:public
+buf::pre	virt_disk.h	/^	struct buf *pre;$/;"	m	struct:buf	typeref:struct:buf::buf	access:public
+buf::refcnt	virt_disk.h	/^	unsigned int refcnt;$/;"	m	struct:buf	access:public
+buf::valid	virt_disk.h	/^	int valid;$/;"	m	struct:buf	access:public
+content	fs.h	/^	struct dinode content;	\/\/copy of dinode$/;"	m	struct:inode	typeref:struct:inode::dinode	access:public
+context	proc.h	/^	struct context context;$/;"	m	struct:proc	typeref:struct:proc::context	access:public
+context	proc.h	/^struct context$/;"	s
+context::ra	proc.h	/^	unsigned long ra;$/;"	m	struct:context	access:public
+context::s0	proc.h	/^	unsigned long s0;$/;"	m	struct:context	access:public
+context::s1	proc.h	/^	unsigned long s1;$/;"	m	struct:context	access:public
+context::s10	proc.h	/^	unsigned long s10;$/;"	m	struct:context	access:public
+context::s11	proc.h	/^	unsigned long s11;$/;"	m	struct:context	access:public
+context::s2	proc.h	/^	unsigned long s2;$/;"	m	struct:context	access:public
+context::s3	proc.h	/^	unsigned long s3;$/;"	m	struct:context	access:public
+context::s4	proc.h	/^	unsigned long s4;$/;"	m	struct:context	access:public
+context::s5	proc.h	/^	unsigned long s5;$/;"	m	struct:context	access:public
+context::s7	proc.h	/^	unsigned long s7;$/;"	m	struct:context	access:public
+context::s8	proc.h	/^	unsigned long s8;$/;"	m	struct:context	access:public
+context::s9	proc.h	/^	unsigned long s9;$/;"	m	struct:context	access:public
+context::sp	proc.h	/^	unsigned long sp;$/;"	m	struct:context	access:public
+copy_from_user	vm.c	/^int copy_from_user(pgt_t user_pgt, void *dst, const void *src, unsigned long len)$/;"	f	signature:(pgt_t user_pgt, void *dst, const void *src, unsigned long len)
+copy_to_user	vm.c	/^int copy_to_user(pgt_t user_pgt, void *dst, const void *src, unsigned long len)$/;"	f	signature:(pgt_t user_pgt, void *dst, const void *src, unsigned long len)
+data	pipe.h	/^	char data[PIPESIZE];$/;"	m	struct:pipe	access:public
+data	virt_disk.h	/^	unsigned char data[BSIZE];$/;"	m	struct:buf	access:public
+data_address	fs.h	/^	unsigned int data_address[NDIRECT+1];	\/\/data block address 12direct + 1indirect$/;"	m	struct:dinode	access:public
+data_blk_num	fs.h	/^	unsigned int data_blk_num;$/;"	m	struct:superblock	access:public
+desc	virt_disk.c	/^  struct virtq_desc *desc;$/;"	m	struct:disk	typeref:struct:disk::virtq_desc	file:	access:public
+dev	virt_disk.h	/^	unsigned int dev;$/;"	m	struct:buf	access:public
+digit	printf.c	/^char *digit = "0123456789abcdef";$/;"	v
+dinode	fs.h	/^struct dinode$/;"	s
+dinode::data_address	fs.h	/^	unsigned int data_address[NDIRECT+1];	\/\/data block address 12direct + 1indirect$/;"	m	struct:dinode	access:public
+dinode::major	fs.h	/^	short major;	\/\/what kind of device? eg. serial port$/;"	m	struct:dinode	access:public
+dinode::minor	fs.h	/^	short minor;	\/\/which one? COM5$/;"	m	struct:dinode	access:public
+dinode::nlink	fs.h	/^	short nlink;	\/\/number of link to the inode$/;"	m	struct:dinode	access:public
+dinode::size	fs.h	/^	unsigned int size;$/;"	m	struct:dinode	access:public
+dinode::type	fs.h	/^	short type;		\/\/file directory device$/;"	m	struct:dinode	access:public
+dirent	fs.h	/^struct dirent$/;"	s
+dirent::inum	fs.h	/^	unsigned short inum;$/;"	m	struct:dirent	access:public
+dirent::name	fs.h	/^	char name[14];$/;"	m	struct:dirent	access:public
+disk	virt_disk.c	/^static struct disk$/;"	s	file:
+disk	virt_disk.c	/^} disk;$/;"	v	typeref:struct:disk	file:
+disk	virt_disk.h	/^	int disk;$/;"	m	struct:buf	access:public
+disk::__anon1::b	virt_disk.c	/^    struct buf *b;$/;"	m	struct:disk::__anon1	typeref:struct:disk::__anon1::buf	file:	access:public
+disk::__anon1::status	virt_disk.c	/^    char status;$/;"	m	struct:disk::__anon1	file:	access:public
+disk::avail	virt_disk.c	/^  struct virtq_avail *avail;$/;"	m	struct:disk	typeref:struct:disk::virtq_avail	file:	access:public
+disk::desc	virt_disk.c	/^  struct virtq_desc *desc;$/;"	m	struct:disk	typeref:struct:disk::virtq_desc	file:	access:public
+disk::free	virt_disk.c	/^  char free[NUM];  \/\/ is a descriptor free?$/;"	m	struct:disk	file:	access:public
+disk::info	virt_disk.c	/^  } info[NUM];$/;"	m	struct:disk	typeref:struct:disk::__anon1	file:	access:public
+disk::ops	virt_disk.c	/^  struct virtio_blk_req ops[NUM];$/;"	m	struct:disk	typeref:struct:disk::virtio_blk_req	file:	access:public
+disk::used	virt_disk.c	/^  struct virtq_used *used;$/;"	m	struct:disk	typeref:struct:disk::virtq_used	file:	access:public
+disk::used_idx	virt_disk.c	/^  unsigned short used_idx; \/\/ we've looked this far in used[2..NUM].$/;"	m	struct:disk	file:	access:public
+ehsize	fs.h	/^	unsigned short ehsize;$/;"	m	struct:elfhdr	access:public
+elf	fs.h	/^	unsigned char elf[12];$/;"	m	struct:elfhdr	access:public
+elfhdr	fs.h	/^struct elfhdr$/;"	s
+elfhdr::ehsize	fs.h	/^	unsigned short ehsize;$/;"	m	struct:elfhdr	access:public
+elfhdr::elf	fs.h	/^	unsigned char elf[12];$/;"	m	struct:elfhdr	access:public
+elfhdr::entry	fs.h	/^	unsigned long entry;$/;"	m	struct:elfhdr	access:public
+elfhdr::flag	fs.h	/^	unsigned int flag;$/;"	m	struct:elfhdr	access:public
+elfhdr::mach	fs.h	/^	unsigned short mach;$/;"	m	struct:elfhdr	access:public
+elfhdr::magic_num	fs.h	/^	unsigned int magic_num;$/;"	m	struct:elfhdr	access:public
+elfhdr::phentsize	fs.h	/^	unsigned short phentsize;	\/\/每个program header的长度$/;"	m	struct:elfhdr	access:public
+elfhdr::phnum	fs.h	/^	unsigned short phnum;		\/\/表示有几个program header$/;"	m	struct:elfhdr	access:public
+elfhdr::phyoff	fs.h	/^	unsigned long phyoff;$/;"	m	struct:elfhdr	access:public
+elfhdr::shentsize	fs.h	/^	unsigned short shentsize;$/;"	m	struct:elfhdr	access:public
+elfhdr::shnum	fs.h	/^	unsigned short shnum;$/;"	m	struct:elfhdr	access:public
+elfhdr::shoff	fs.h	/^	unsigned long shoff;$/;"	m	struct:elfhdr	access:public
+elfhdr::shstrndx	fs.h	/^	unsigned short shstrndx;$/;"	m	struct:elfhdr	access:public
+elfhdr::type	fs.h	/^	unsigned short type;$/;"	m	struct:elfhdr	access:public
+elfhdr::version	fs.h	/^	unsigned int version;$/;"	m	struct:elfhdr	access:public
+entry	fs.h	/^	unsigned long entry;$/;"	m	struct:elfhdr	access:public
+epc	proc.h	/^  \/*  24 *\/ unsigned long epc;           \/\/ saved user program counter$/;"	m	struct:trapframe	access:public
+exec	exec.c	/^int exec(char *path, char **argv)$/;"	f	signature:(char *path, char **argv)
+exec	src_trap.c	/^extern int exec(char *path, char **argv);$/;"	p	file:	signature:(char *path, char **argv)
+exit	proc.c	/^void exit(int code)$/;"	f	signature:(int code)
+exit	proc.h	/^void exit(int code);$/;"	p	signature:(int code)
+fault	src_trap_entry.S	/^fault:$/;"	l
+fault_handler	src_trap.c	/^	void (*fault_handler)(struct pt_regs *, unsigned long);$/;"	m	struct:fault_info	file:	access:public
+fault_info	src_trap.c	/^static const struct fault_info fault_info[] = {$/;"	v	typeref:struct:fault_info	file:
+fault_info	src_trap.c	/^struct fault_info {$/;"	s	file:
+fault_info::fault_handler	src_trap.c	/^	void (*fault_handler)(struct pt_regs *, unsigned long);$/;"	m	struct:fault_info	file:	access:public
+fault_info::fault_name	src_trap.c	/^	char *fault_name;$/;"	m	struct:fault_info	file:	access:public
+fault_name	src_trap.c	/^	char *fault_name;$/;"	m	struct:fault_info	file:	access:public
+fd_alloc	fd.c	/^int fd_alloc(struct file *file_t_addr)$/;"	f	signature:(struct file *file_t_addr)
+fd_alloc	fd.h	/^int fd_alloc(struct file *file_t_addr);$/;"	p	signature:(struct file *file_t_addr)
+file	fd.h	/^struct file$/;"	s
+file::FD_DEVICE	fd.h	/^	enum {FD_NONE, FD_PIPE, FD_INODE, FD_DEVICE} type;$/;"	e	enum:file::__anon2
+file::FD_INODE	fd.h	/^	enum {FD_NONE, FD_PIPE, FD_INODE, FD_DEVICE} type;$/;"	e	enum:file::__anon2
+file::FD_NONE	fd.h	/^	enum {FD_NONE, FD_PIPE, FD_INODE, FD_DEVICE} type;$/;"	e	enum:file::__anon2
+file::FD_PIPE	fd.h	/^	enum {FD_NONE, FD_PIPE, FD_INODE, FD_DEVICE} type;$/;"	e	enum:file::__anon2
+file::ip	fd.h	/^	struct inode *ip;$/;"	m	struct:file	typeref:struct:file::inode	access:public
+file::major	fd.h	/^	short major;$/;"	m	struct:file	access:public
+file::off	fd.h	/^	unsigned int off;$/;"	m	struct:file	access:public
+file::pipe	fd.h	/^	struct pipe *pipe;$/;"	m	struct:file	typeref:struct:file::pipe	access:public
+file::readable	fd.h	/^	char readable;$/;"	m	struct:file	access:public
+file::ref_cnt	fd.h	/^	int ref_cnt;$/;"	m	struct:file	access:public
+file::type	fd.h	/^	enum {FD_NONE, FD_PIPE, FD_INODE, FD_DEVICE} type;$/;"	m	struct:file	typeref:enum:file::__anon2	access:public
+file::writable	fd.h	/^	char writable;$/;"	m	struct:file	access:public
+file_alloc	fd.c	/^struct file *file_alloc()$/;"	f
+file_alloc	fd.h	/^struct file *file_alloc();$/;"	p	signature:()
+file_close	fd.c	/^void file_close(struct file *file)$/;"	f	signature:(struct file *file)
+file_close	fd.h	/^void file_close(struct file *file);$/;"	p	signature:(struct file *file)
+file_dup	fd.c	/^struct file *file_dup(struct file *file)$/;"	f	signature:(struct file *file)
+file_dup	fd.h	/^struct file *file_dup(struct file *file);$/;"	p	signature:(struct file *file)
+filesz	fs.h	/^	unsigned long filesz;$/;"	m	struct:proghdr	access:public
+flag	fs.h	/^	unsigned int flag;$/;"	m	struct:elfhdr	access:public
+flags	fs.h	/^	unsigned int flags;$/;"	m	struct:proghdr	access:public
+flags	virt_disk.h	/^  unsigned short flags;     \/\/ always zero$/;"	m	struct:virtq_avail	access:public
+flags	virt_disk.h	/^  unsigned short flags; \/\/ always zero$/;"	m	struct:virtq_used	access:public
+flags	virt_disk.h	/^  unsigned short flags;$/;"	m	struct:virtq_desc	access:public
+fork	proc.c	/^int fork()$/;"	f
+fork	proc.h	/^int fork();$/;"	p	signature:()
+fork_ret	proc.c	/^void fork_ret()$/;"	f
+free	virt_disk.c	/^  char free[NUM];  \/\/ is a descriptor free?$/;"	m	struct:disk	file:	access:public
+free_chain	virt_disk.c	/^free_chain(int i)$/;"	f	file:	signature:(int i)
+free_desc	virt_disk.c	/^free_desc(int i)$/;"	f	file:	signature:(int i)
+free_list_arr	buddy.c	/^struct buddy_blk *free_list_arr[MAX_ORDER];$/;"	v	typeref:struct:buddy_blk
+free_mem_in_page	vm.c	/^int free_mem_in_page(void *pa_s, void *pa_e)$/;"	f	signature:(void *pa_s, void *pa_e)
+fs_init	fs.c	/^void fs_init()$/;"	f
+fs_init	fs.h	/^void fs_init();$/;"	p	signature:()
+ftable	fd.c	/^struct file ftable[MAX_FILE];$/;"	v	typeref:struct:file
+get_inode	fs.c	/^int get_inode(char *path, struct inode *ino)$/;"	f	signature:(char *path, struct inode *ino)
+get_inode	fs.h	/^int get_inode(char *path, struct inode *ino);$/;"	p	signature:(char *path, struct inode *ino)
+get_nxt_name	fs.c	/^char *get_nxt_name(char *path, char *name)$/;"	f	signature:(char *path, char *name)
+get_nxt_name	fs.h	/^char *get_nxt_name(char *path, char *name);$/;"	p	signature:(char *path, char *name)
+gp	proc.h	/^  \/*  56 *\/ unsigned long gp;$/;"	m	struct:trapframe	access:public
+id	virt_disk.h	/^  unsigned int id; \/\/ index of start of completed descriptor chain$/;"	m	struct:virtq_used_elem	access:public
+idx	virt_disk.h	/^  unsigned short idx;       \/\/ driver will write ring[idx] next$/;"	m	struct:virtq_avail	access:public
+idx	virt_disk.h	/^  unsigned short idx;   \/\/ device increments when it adds a ring[] entry$/;"	m	struct:virtq_used	access:public
+info	virt_disk.c	/^  } info[NUM];$/;"	m	struct:disk	typeref:struct:disk::__anon1	file:	access:public
+init_bin_tree_mem	buddy.c	/^unsigned long init_bin_tree_mem()$/;"	f
+init_bin_tree_mem	buddy.h	/^unsigned long init_bin_tree_mem();$/;"	p	signature:()
+init_proc_kstack	proc.c	/^void init_proc_kstack(pgt_t pagetable)$/;"	f	signature:(pgt_t pagetable)
+init_proc_kstack	proc.h	/^void init_proc_kstack(pgt_t pagetable);$/;"	p	signature:(pgt_t pagetable)
+initcode	proc.c	/^unsigned char initcode[] = {$/;"	v
+inode	fs.h	/^struct inode$/;"	s
+inode::content	fs.h	/^	struct dinode content;	\/\/copy of dinode$/;"	m	struct:inode	typeref:struct:inode::dinode	access:public
+inode::ndev	fs.h	/^	unsigned int ndev;		\/\/device number$/;"	m	struct:inode	access:public
+inode::ninode	fs.h	/^	unsigned int ninode;	\/\/inode number$/;"	m	struct:inode	access:public
+inode::ref	fs.h	/^	int ref;$/;"	m	struct:inode	access:public
+inode::valid	fs.h	/^	int valid;$/;"	m	struct:inode	access:public
+inode_num	fs.h	/^	unsigned int inode_num;$/;"	m	struct:superblock	access:public
+inode_which_block	fs.c	/^unsigned int inode_which_block(unsigned int inum, struct superblock sb)$/;"	f	signature:(unsigned int inum, struct superblock sb)
+inum	fs.h	/^	unsigned short inum;$/;"	m	struct:dirent	access:public
+ip	fd.h	/^	struct inode *ip;$/;"	m	struct:file	typeref:struct:file::inode	access:public
+kalloc	vm.c	/^void *kalloc(void)$/;"	f	signature:(void)
+kernel_ctxt	proc.c	/^struct proc kernel_ctxt;$/;"	v	typeref:struct:proc
+kernel_hartid	proc.h	/^  \/*  32 *\/ unsigned long kernel_hartid; \/\/ saved kernel tp$/;"	m	struct:trapframe	access:public
+kernel_main	kernel_main.c	/^void kernel_main()$/;"	f
+kernel_satp	proc.h	/^  \/*   0 *\/ unsigned long kernel_satp;   \/\/ kernel page table$/;"	m	struct:trapframe	access:public
+kernel_sp	proc.h	/^  \/*   8 *\/ unsigned long kernel_sp;     \/\/ top of process's kernel stack$/;"	m	struct:trapframe	access:public
+kernel_trap	proc.h	/^  \/*  16 *\/ unsigned long kernel_trap;   \/\/ usertrap()$/;"	m	struct:trapframe	access:public
+kfree	vm.c	/^void kfree(void *p)$/;"	f	signature:(void *p)
+kill	proc.c	/^int kill(int pid)$/;"	f	signature:(int pid)
+killed	proc.h	/^	int killed;$/;"	m	struct:proc	access:public
+kp_free_mem	vm.c	/^void kp_free_mem()$/;"	f
+kstack	proc.h	/^	unsigned long *kstack;$/;"	m	struct:proc	access:public
+left	buddy.h	/^	struct buddy_blk *left;$/;"	m	struct:buddy_blk	typeref:struct:buddy_blk::buddy_blk	access:public
+len	virt_disk.h	/^  unsigned int len;$/;"	m	struct:virtq_desc	access:public
+len	virt_disk.h	/^  unsigned int len;$/;"	m	struct:virtq_used_elem	access:public
+loadsec	fs.c	/^void loadsec(pgt_t pagetable, struct inode *ip, unsigned long va, unsigned int offset, unsigned int sz)$/;"	f	signature:(pgt_t pagetable, struct inode *ip, unsigned long va, unsigned int offset, unsigned int sz)
+lock	pipe.h	/^	struct spinlock lock;$/;"	m	struct:pipe	typeref:struct:pipe::spinlock	access:public
+locked	locks.h	/^	unsigned int locked;$/;"	m	struct:spinlock	access:public
+log_num	fs.h	/^	unsigned int log_num;$/;"	m	struct:superblock	access:public
+mach	fs.h	/^	unsigned short mach;$/;"	m	struct:elfhdr	access:public
+magic_num	fs.h	/^	unsigned int magic_num;$/;"	m	struct:elfhdr	access:public
+magic_num	fs.h	/^	unsigned int magic_num;$/;"	m	struct:superblock	access:public
+major	fd.h	/^	short major;$/;"	m	struct:file	access:public
+major	fs.h	/^	short major;	\/\/what kind of device? eg. serial port$/;"	m	struct:dinode	access:public
+map_page	vm.c	/^int map_page(pgt_t pagetable, unsigned long pa, unsigned long va,unsigned long size, int perm)$/;"	f	signature:(pgt_t pagetable, unsigned long pa, unsigned long va,unsigned long size, int perm)
+mem_linked_list	kernel_main.c	/^extern struct mem_linked_list$/;"	s	file:
+mem_linked_list	vm.c	/^struct mem_linked_list$/;"	s	file:
+mem_linked_list::nxt	kernel_main.c	/^	struct mem_linked_list *nxt;$/;"	m	struct:mem_linked_list	typeref:struct:mem_linked_list::mem_linked_list	file:	access:public
+mem_linked_list::nxt	vm.c	/^	struct mem_linked_list *nxt;$/;"	m	struct:mem_linked_list	typeref:struct:mem_linked_list::mem_linked_list	file:	access:public
+mem_ll	vm.c	/^}mem_ll;$/;"	v	typeref:struct:mem_linked_list
+memcpy	string.c	/^void *memcpy(void *dst, const void *src, int n)$/;"	f	signature:(void *dst, const void *src, int n)
+memmove	string.c	/^void *memmove(char *dst, const char *src, int n)$/;"	f	signature:(char *dst, const char *src, int n)
+memset	string.c	/^void *memset(void *s, int val, unsigned int count)$/;"	f	signature:(void *s, int val, unsigned int count)
+memsz	fs.h	/^	unsigned long memsz;$/;"	m	struct:proghdr	access:public
+minor	fs.h	/^	short minor;	\/\/which one? COM5$/;"	m	struct:dinode	access:public
+name	fs.h	/^	char name[14];$/;"	m	struct:dirent	access:public
+name	proc.h	/^	char name[10];$/;"	m	struct:proc	access:public
+ndev	fs.h	/^	unsigned int ndev;		\/\/device number$/;"	m	struct:inode	access:public
+new_file_st	fs.h	/^struct file *new_file_st();$/;"	p	signature:()
+new_pipe	pipe.c	/^int new_pipe(struct file **f0, struct file **f1)$/;"	f	signature:(struct file **f0, struct file **f1)
+new_pipe	pipe.h	/^int new_pipe(struct file **f0, struct file **f1);$/;"	p	signature:(struct file **f0, struct file **f1)
+next	virt_disk.h	/^  unsigned short next;$/;"	m	struct:virtq_desc	access:public
+ninode	fs.h	/^	unsigned int ninode;	\/\/inode number$/;"	m	struct:inode	access:public
+nlink	fs.h	/^	short nlink;	\/\/number of link to the inode$/;"	m	struct:dinode	access:public
+nrd	pipe.h	/^	int nrd;$/;"	m	struct:pipe	access:public
+nwr	pipe.h	/^	int nwr;$/;"	m	struct:pipe	access:public
+nxt	kernel_main.c	/^	struct mem_linked_list *nxt;$/;"	m	struct:mem_linked_list	typeref:struct:mem_linked_list::mem_linked_list	file:	access:public
+nxt	virt_disk.h	/^	struct buf *nxt;$/;"	m	struct:buf	typeref:struct:buf::buf	access:public
+nxt	vm.c	/^	struct mem_linked_list *nxt;$/;"	m	struct:mem_linked_list	typeref:struct:mem_linked_list::mem_linked_list	file:	access:public
+nxt_unused_node	buddy.c	/^struct buddy_blk *nxt_unused_node = (struct buddy_blk *)(&_free_mem_start) + sizeof(struct buddy_blk);$/;"	v	typeref:struct:buddy_blk
+off	fd.h	/^	unsigned int off;$/;"	m	struct:file	access:public
+off	fs.h	/^	unsigned long off;$/;"	m	struct:proghdr	access:public
+ofile	proc.h	/^	struct file *ofile[MAX_OFILE];$/;"	m	struct:proc	typeref:struct:proc::file	access:public
+ops	virt_disk.c	/^  struct virtio_blk_req ops[NUM];$/;"	m	struct:disk	typeref:struct:disk::virtio_blk_req	file:	access:public
+order	buddy.h	/^	int order;$/;"	m	struct:buddy_blk	access:public
+ori_ptr	vm.c	/^struct mem_linked_list *ori_ptr = &mem_ll;$/;"	v	typeref:struct:mem_linked_list
+paddr	fs.h	/^	unsigned long paddr;$/;"	m	struct:proghdr	access:public
+panic	printf.c	/^void panic(char *s)$/;"	f	signature:(char *s)
+parent	proc.h	/^	struct proc *parent;$/;"	m	struct:proc	typeref:struct:proc::proc	access:public
+phentsize	fs.h	/^	unsigned short phentsize;	\/\/每个program header的长度$/;"	m	struct:elfhdr	access:public
+phnum	fs.h	/^	unsigned short phnum;		\/\/表示有几个program header$/;"	m	struct:elfhdr	access:public
+phyoff	fs.h	/^	unsigned long phyoff;$/;"	m	struct:elfhdr	access:public
+pid	proc.c	/^int pid = 0;$/;"	v
+pid	proc.h	/^	int pid;$/;"	m	struct:proc	access:public
+pipe	fd.h	/^	struct pipe *pipe;$/;"	m	struct:file	typeref:struct:file::pipe	access:public
+pipe	pipe.h	/^struct pipe$/;"	s
+pipe::data	pipe.h	/^	char data[PIPESIZE];$/;"	m	struct:pipe	access:public
+pipe::lock	pipe.h	/^	struct spinlock lock;$/;"	m	struct:pipe	typeref:struct:pipe::spinlock	access:public
+pipe::nrd	pipe.h	/^	int nrd;$/;"	m	struct:pipe	access:public
+pipe::nwr	pipe.h	/^	int nwr;$/;"	m	struct:pipe	access:public
+pipe::rd	pipe.h	/^	int rd;$/;"	m	struct:pipe	access:public
+pipe::wr	pipe.h	/^	int wr;$/;"	m	struct:pipe	access:public
+pipe_rd	pipe.c	/^int pipe_rd(struct pipe *pipe, unsigned long addr, int len)$/;"	f	signature:(struct pipe *pipe, unsigned long addr, int len)
+pipe_rd	pipe.h	/^int pipe_rd();$/;"	p	signature:()
+pipe_wr	pipe.c	/^int pipe_wr(struct pipe *pipe, unsigned long addr, int len)$/;"	f	signature:(struct pipe *pipe, unsigned long addr, int len)
+pipe_wr	pipe.h	/^int pipe_wr(struct pipe *pipe, unsigned long addr, int len);$/;"	p	signature:(struct pipe *pipe, unsigned long addr, int len)
+plic_claim	plic.c	/^plic_claim(void)$/;"	f	signature:(void)
+plic_claim	plic.h	/^int plic_claim();$/;"	p	signature:()
+plic_complete	plic.c	/^plic_complete(int irq)$/;"	f	signature:(int irq)
+plic_complete	plic.h	/^void plic_complete(int irq);$/;"	p	signature:(int irq)
+plicinit	plic.c	/^plicinit(void)$/;"	f	signature:(void)
+plicinit	plic.h	/^void plicinit();$/;"	p	signature:()
+plicinithart	plic.c	/^plicinithart(void)$/;"	f	signature:(void)
+plicinithart	plic.h	/^void plicinithart();$/;"	p	signature:()
+pre	virt_disk.h	/^	struct buf *pre;$/;"	m	struct:buf	typeref:struct:buf::buf	access:public
+print_int	printf.c	/^void print_int(unsigned int num, int base)$/;"	f	signature:(unsigned int num, int base)
+print_lock	kernel_main.c	/^struct spinlock print_lock;$/;"	v	typeref:struct:spinlock
+printf	printf.c	/^void printf(char *fmt, ...)$/;"	f	signature:(char *fmt, ...)
+proc	proc.h	/^struct proc$/;"	s
+proc::context	proc.h	/^	struct context context;$/;"	m	struct:proc	typeref:struct:proc::context	access:public
+proc::killed	proc.h	/^	int killed;$/;"	m	struct:proc	access:public
+proc::kstack	proc.h	/^	unsigned long *kstack;$/;"	m	struct:proc	access:public
+proc::name	proc.h	/^	char name[10];$/;"	m	struct:proc	access:public
+proc::ofile	proc.h	/^	struct file *ofile[MAX_OFILE];$/;"	m	struct:proc	typeref:struct:proc::file	access:public
+proc::parent	proc.h	/^	struct proc *parent;$/;"	m	struct:proc	typeref:struct:proc::proc	access:public
+proc::pid	proc.h	/^	int pid;$/;"	m	struct:proc	access:public
+proc::proc_pagetable	proc.h	/^	pgt_t proc_pagetable;$/;"	m	struct:proc	access:public
+proc::prog_size	proc.h	/^	unsigned long prog_size;$/;"	m	struct:proc	access:public
+proc::sleep_chan	proc.h	/^	unsigned long sleep_chan;$/;"	m	struct:proc	access:public
+proc::state	proc.h	/^	int state;$/;"	m	struct:proc	access:public
+proc::trapframe	proc.h	/^	struct trapframe *trapframe;$/;"	m	struct:proc	typeref:struct:proc::trapframe	access:public
+proc_list	proc.c	/^struct proc proc_list[MAX_PROC];$/;"	v	typeref:struct:proc
+proc_pagetable	proc.c	/^pgt_t proc_pagetable()$/;"	f
+proc_pagetable	proc.h	/^	pgt_t proc_pagetable;$/;"	m	struct:proc	access:public
+proc_pagetable	proc.h	/^pgt_t proc_pagetable();$/;"	p	signature:()
+proc_ptr	proc.c	/^struct proc *proc_ptr = &kernel_ctxt;$/;"	v	typeref:struct:proc
+prog_size	proc.h	/^	unsigned long prog_size;$/;"	m	struct:proc	access:public
+proghdr	fs.h	/^struct proghdr$/;"	s
+proghdr::align	fs.h	/^	unsigned long align;$/;"	m	struct:proghdr	access:public
+proghdr::filesz	fs.h	/^	unsigned long filesz;$/;"	m	struct:proghdr	access:public
+proghdr::flags	fs.h	/^	unsigned int flags;$/;"	m	struct:proghdr	access:public
+proghdr::memsz	fs.h	/^	unsigned long memsz;$/;"	m	struct:proghdr	access:public
+proghdr::off	fs.h	/^	unsigned long off;$/;"	m	struct:proghdr	access:public
+proghdr::paddr	fs.h	/^	unsigned long paddr;$/;"	m	struct:proghdr	access:public
+proghdr::type	fs.h	/^	unsigned int type;$/;"	m	struct:proghdr	access:public
+proghdr::vaddr	fs.h	/^	unsigned long vaddr;$/;"	m	struct:proghdr	access:public
+ra	proc.h	/^	unsigned long ra;$/;"	m	struct:context	access:public
+ra	proc.h	/^  \/*  40 *\/ unsigned long ra;$/;"	m	struct:trapframe	access:public
+rd	pipe.h	/^	int rd;$/;"	m	struct:pipe	access:public
+rd_inode	fs.c	/^void rd_inode(unsigned int inum, struct inode *inode_buf)$/;"	f	signature:(unsigned int inum, struct inode *inode_buf)
+read_elfhr	fs.c	/^void read_elfhr(struct elfhdr* hdr, struct proghdr *phdr, struct inode *ino_ptr)$/;"	f	signature:(struct elfhdr* hdr, struct proghdr *phdr, struct inode *ino_ptr)
+read_elfhr	fs.h	/^void read_elfhr(struct elfhdr* hdr, struct proghdr* phdr, struct inode *ino_ptr);$/;"	p	signature:(struct elfhdr* hdr, struct proghdr* phdr, struct inode *ino_ptr)
+read_from_inode	fs.c	/^int read_from_inode(struct inode *ip, unsigned long dst, unsigned long offset, unsigned int len, int to_where)$/;"	f	signature:(struct inode *ip, unsigned long dst, unsigned long offset, unsigned int len, int to_where)
+read_from_inode	fs.h	/^int read_from_inode(struct inode *ip, unsigned long dst, unsigned long offset, unsigned int len, int to_where);$/;"	p	signature:(struct inode *ip, unsigned long dst, unsigned long offset, unsigned int len, int to_where)
+read_sb	fs.c	/^static void read_sb(struct superblock *sb)$/;"	f	file:	signature:(struct superblock *sb)
+readable	fd.h	/^	char readable;$/;"	m	struct:file	access:public
+ref	fs.h	/^	int ref;$/;"	m	struct:inode	access:public
+ref_cnt	fd.h	/^	int ref_cnt;$/;"	m	struct:file	access:public
+refcnt	virt_disk.h	/^	unsigned int refcnt;$/;"	m	struct:buf	access:public
+release	locks.c	/^void release(struct spinlock *lk)$/;"	f	signature:(struct spinlock *lk)
+release	locks.h	/^void release(struct spinlock *lk);$/;"	p	signature:(struct spinlock *lk)
+reserved	virt_disk.h	/^  unsigned int reserved;$/;"	m	struct:virtio_blk_req	access:public
+right	buddy.h	/^	struct buddy_blk *right;$/;"	m	struct:buddy_blk	typeref:struct:buddy_blk::buddy_blk	access:public
+ring	virt_disk.h	/^  struct virtq_used_elem ring[NUM];$/;"	m	struct:virtq_used	typeref:struct:virtq_used::virtq_used_elem	access:public
+ring	virt_disk.h	/^  unsigned short ring[NUM]; \/\/ descriptor numbers of chain heads$/;"	m	struct:virtq_avail	access:public
+root_node	buddy.c	/^struct buddy_blk *root_node = (struct buddy_blk *)(&_free_mem_start);$/;"	v	typeref:struct:buddy_blk
+round_size	buddy.c	/^static int round_size(unsigned int sz)$/;"	f	file:	signature:(unsigned int sz)
+s0	proc.h	/^	unsigned long s0;$/;"	m	struct:context	access:public
+s0	proc.h	/^  \/*  96 *\/ unsigned long s0;$/;"	m	struct:trapframe	access:public
+s1	proc.h	/^	unsigned long s1;$/;"	m	struct:context	access:public
+s1	proc.h	/^  \/* 104 *\/ unsigned long s1;$/;"	m	struct:trapframe	access:public
+s10	proc.h	/^	unsigned long s10;$/;"	m	struct:context	access:public
+s10	proc.h	/^  \/* 240 *\/ unsigned long s10;$/;"	m	struct:trapframe	access:public
+s11	proc.h	/^	unsigned long s11;$/;"	m	struct:context	access:public
+s11	proc.h	/^  \/* 248 *\/ unsigned long s11;$/;"	m	struct:trapframe	access:public
+s2	proc.h	/^	unsigned long s2;$/;"	m	struct:context	access:public
+s2	proc.h	/^  \/* 176 *\/ unsigned long s2;$/;"	m	struct:trapframe	access:public
+s3	proc.h	/^	unsigned long s3;$/;"	m	struct:context	access:public
+s3	proc.h	/^  \/* 184 *\/ unsigned long s3;$/;"	m	struct:trapframe	access:public
+s4	proc.h	/^	unsigned long s4;$/;"	m	struct:context	access:public
+s4	proc.h	/^  \/* 192 *\/ unsigned long s4;$/;"	m	struct:trapframe	access:public
+s5	proc.h	/^	unsigned long s5;$/;"	m	struct:context	access:public
+s5	proc.h	/^  \/* 200 *\/ unsigned long s5;$/;"	m	struct:trapframe	access:public
+s6	proc.h	/^  \/* 208 *\/ unsigned long s6;$/;"	m	struct:trapframe	access:public
+s7	proc.h	/^	unsigned long s7;$/;"	m	struct:context	access:public
+s7	proc.h	/^  \/* 216 *\/ unsigned long s7;$/;"	m	struct:trapframe	access:public
+s8	proc.h	/^	unsigned long s8;$/;"	m	struct:context	access:public
+s8	proc.h	/^  \/* 224 *\/ unsigned long s8;$/;"	m	struct:trapframe	access:public
+s9	proc.h	/^	unsigned long s9;$/;"	m	struct:context	access:public
+s9	proc.h	/^  \/* 232 *\/ unsigned long s9;$/;"	m	struct:trapframe	access:public
+s_bmap	fs.h	/^	unsigned int s_bmap;$/;"	m	struct:superblock	access:public
+s_data_blk	fs.h	/^	unsigned int s_data_blk;$/;"	m	struct:superblock	access:public
+s_inode_blk	fs.h	/^	unsigned int s_inode_blk;$/;"	m	struct:superblock	access:public
+sb	fs.c	/^struct superblock sb;$/;"	v	typeref:struct:superblock
+sched	proc.c	/^void sched()$/;"	f
+scheduler	proc.c	/^void scheduler()$/;"	f
+scheduler	proc.h	/^void scheduler();$/;"	p	signature:()
+sector	virt_disk.h	/^  unsigned long sector;$/;"	m	struct:virtio_blk_req	access:public
+sf_fp	back_trace.c	/^	unsigned long sf_fp;$/;"	m	struct:stack_frame	file:	access:public
+sf_ra	back_trace.c	/^	unsigned long sf_ra;$/;"	m	struct:stack_frame	file:	access:public
+shentsize	fs.h	/^	unsigned short shentsize;$/;"	m	struct:elfhdr	access:public
+shnum	fs.h	/^	unsigned short shnum;$/;"	m	struct:elfhdr	access:public
+shoff	fs.h	/^	unsigned long shoff;$/;"	m	struct:elfhdr	access:public
+show_regs	src_trap.c	/^void show_regs(struct pt_regs *reg_ptr)$/;"	f	signature:(struct pt_regs *reg_ptr)
+show_regs	src_trap.h	/^void show_regs(struct pt_regs *reg_ptr);$/;"	p	signature:(struct pt_regs *reg_ptr)
+shstrndx	fs.h	/^	unsigned short shstrndx;$/;"	m	struct:elfhdr	access:public
+size	fs.h	/^	unsigned int size;$/;"	m	struct:dinode	access:public
+size	fs.h	/^	unsigned int size;$/;"	m	struct:superblock	access:public
+sleep	proc.c	/^void sleep(unsigned long *chan, struct spinlock *lock)$/;"	f	signature:(unsigned long *chan, struct spinlock *lock)
+sleep	proc.h	/^void sleep(unsigned long *chan, struct spinlock *lock);$/;"	p	signature:(unsigned long *chan, struct spinlock *lock)
+sleep_chan	proc.h	/^	unsigned long sleep_chan;$/;"	m	struct:proc	access:public
+smode_exeception_handler	src_trap.c	/^void smode_exeception_handler(struct pt_regs *reg_ptr, unsigned long s_cause)$/;"	f	signature:(struct pt_regs *reg_ptr, unsigned long s_cause)
+smode_exeception_handler	src_trap.h	/^void smode_exeception_handler(struct pt_regs *reg_ptr, unsigned long s_cause);$/;"	p	signature:(struct pt_regs *reg_ptr, unsigned long s_cause)
+smode_exeception_vec	src_trap.c	/^extern void smode_exeception_vec();$/;"	p	file:
+smode_exeception_vec	src_trap_entry.S	/^smode_exeception_vec:$/;"	l
+sp	proc.h	/^	unsigned long sp;$/;"	m	struct:context	access:public
+sp	proc.h	/^  \/*  48 *\/ unsigned long sp;$/;"	m	struct:trapframe	access:public
+spinlock	locks.h	/^struct spinlock$/;"	s
+spinlock::locked	locks.h	/^	unsigned int locked;$/;"	m	struct:spinlock	access:public
+src_trap_init	src_trap.c	/^void src_trap_init()$/;"	f
+src_trap_init	src_trap.h	/^void src_trap_init();$/;"	p	signature:()
+stack0	kernel_boot.S	/^stack0:$/;"	l
+stack1	kernel_boot.S	/^stack1:$/;"	l
+stack2	kernel_boot.S	/^stack2:$/;"	l
+stack3	kernel_boot.S	/^stack3:$/;"	l
+stack_frame	back_trace.c	/^struct stack_frame$/;"	s	file:
+stack_frame::sf_fp	back_trace.c	/^	unsigned long sf_fp;$/;"	m	struct:stack_frame	file:	access:public
+stack_frame::sf_ra	back_trace.c	/^	unsigned long sf_ra;$/;"	m	struct:stack_frame	file:	access:public
+staddr	buddy.h	/^	unsigned long staddr;$/;"	m	struct:buddy_blk	access:public
+state	buddy.h	/^	enum State state;$/;"	m	struct:buddy_blk	typeref:enum:buddy_blk::State	access:public
+state	proc.h	/^	int state;$/;"	m	struct:proc	access:public
+status	virt_disk.c	/^    char status;$/;"	m	struct:disk::__anon1	file:	access:public
+strncmp	string.c	/^int strncmp(const char *p, const char *q, unsigned int n)$/;"	f	signature:(const char *p, const char *q, unsigned int n)
+superblock	fs.h	/^struct superblock$/;"	s
+superblock::data_blk_num	fs.h	/^	unsigned int data_blk_num;$/;"	m	struct:superblock	access:public
+superblock::inode_num	fs.h	/^	unsigned int inode_num;$/;"	m	struct:superblock	access:public
+superblock::log_num	fs.h	/^	unsigned int log_num;$/;"	m	struct:superblock	access:public
+superblock::magic_num	fs.h	/^	unsigned int magic_num;$/;"	m	struct:superblock	access:public
+superblock::s_bmap	fs.h	/^	unsigned int s_bmap;$/;"	m	struct:superblock	access:public
+superblock::s_data_blk	fs.h	/^	unsigned int s_data_blk;$/;"	m	struct:superblock	access:public
+superblock::s_inode_blk	fs.h	/^	unsigned int s_inode_blk;$/;"	m	struct:superblock	access:public
+superblock::size	fs.h	/^	unsigned int size;$/;"	m	struct:superblock	access:public
+swtch	kernel_main.c	/^extern void swtch();$/;"	p	file:
+swtch	proc.c	/^extern void swtch();$/;"	p	file:
+swtch	src_trap.c	/^extern void swtch();$/;"	p	file:
+swtch	switch.S	/^swtch:$/;"	l
+sys_exec	src_trap.c	/^int sys_exec()$/;"	f
+sys_exec	src_trap.c	/^int sys_exec();$/;"	p	file:
+sys_fork	src_trap.c	/^int sys_fork()$/;"	f
+sys_fork	src_trap.c	/^int sys_fork();$/;"	p	file:
+sys_open	src_trap.c	/^int sys_open()$/;"	f
+sys_open	src_trap.c	/^int sys_open();$/;"	p	file:
+sys_pipe	src_trap.c	/^int sys_pipe()$/;"	f
+sys_pipe	src_trap.c	/^int sys_pipe();$/;"	p	file:
+sys_print	src_trap.c	/^unsigned long sys_print()$/;"	f
+sys_print	src_trap.c	/^unsigned long sys_print();$/;"	p	file:
+sys_read	src_trap.c	/^int sys_read()$/;"	f
+sys_read	src_trap.c	/^int sys_read();$/;"	p	file:
+sys_sleep	src_trap.c	/^int sys_sleep()$/;"	f
+sys_sleep	src_trap.c	/^int sys_sleep();$/;"	p	file:
+sys_write	src_trap.c	/^int sys_write()$/;"	f
+sys_write	src_trap.c	/^int sys_write();$/;"	p	file:
+syscall	src_trap.c	/^static unsigned long (*syscall[])(void) = {$/;"	v	file:
+systicks	src_trap.c	/^unsigned long systicks = 0;$/;"	v
+systicks_lock	src_trap.c	/^struct spinlock systicks_lock = {0};$/;"	v	typeref:struct:spinlock
+t0	proc.h	/^  \/*  72 *\/ unsigned long t0;$/;"	m	struct:trapframe	access:public
+t1	proc.h	/^  \/*  80 *\/ unsigned long t1;$/;"	m	struct:trapframe	access:public
+t2	proc.h	/^  \/*  88 *\/ unsigned long t2;$/;"	m	struct:trapframe	access:public
+t3	proc.h	/^  \/* 256 *\/ unsigned long t3;$/;"	m	struct:trapframe	access:public
+t4	proc.h	/^  \/* 264 *\/ unsigned long t4;$/;"	m	struct:trapframe	access:public
+t5	proc.h	/^  \/* 272 *\/ unsigned long t5;$/;"	m	struct:trapframe	access:public
+t6	proc.h	/^  \/* 280 *\/ unsigned long t6;$/;"	m	struct:trapframe	access:public
+test_num	kernel_main.c	/^int test_num = 0;$/;"	v
+tp	proc.h	/^  \/*  64 *\/ unsigned long tp;$/;"	m	struct:trapframe	access:public
+trampoline	src_trap.c	/^extern void trampoline();$/;"	p	file:
+trampoline	trampoline.S	/^trampoline:$/;"	l
+trapframe	proc.h	/^	struct trapframe *trapframe;$/;"	m	struct:proc	typeref:struct:proc::trapframe	access:public
+trapframe	proc.h	/^struct trapframe {$/;"	s
+trapframe::a0	proc.h	/^  \/* 112 *\/ unsigned long a0;$/;"	m	struct:trapframe	access:public
+trapframe::a1	proc.h	/^  \/* 120 *\/ unsigned long a1;$/;"	m	struct:trapframe	access:public
+trapframe::a2	proc.h	/^  \/* 128 *\/ unsigned long a2;$/;"	m	struct:trapframe	access:public
+trapframe::a3	proc.h	/^  \/* 136 *\/ unsigned long a3;$/;"	m	struct:trapframe	access:public
+trapframe::a4	proc.h	/^  \/* 144 *\/ unsigned long a4;$/;"	m	struct:trapframe	access:public
+trapframe::a5	proc.h	/^  \/* 152 *\/ unsigned long a5;$/;"	m	struct:trapframe	access:public
+trapframe::a6	proc.h	/^  \/* 160 *\/ unsigned long a6;$/;"	m	struct:trapframe	access:public
+trapframe::a7	proc.h	/^  \/* 168 *\/ unsigned long a7;$/;"	m	struct:trapframe	access:public
+trapframe::epc	proc.h	/^  \/*  24 *\/ unsigned long epc;           \/\/ saved user program counter$/;"	m	struct:trapframe	access:public
+trapframe::gp	proc.h	/^  \/*  56 *\/ unsigned long gp;$/;"	m	struct:trapframe	access:public
+trapframe::kernel_hartid	proc.h	/^  \/*  32 *\/ unsigned long kernel_hartid; \/\/ saved kernel tp$/;"	m	struct:trapframe	access:public
+trapframe::kernel_satp	proc.h	/^  \/*   0 *\/ unsigned long kernel_satp;   \/\/ kernel page table$/;"	m	struct:trapframe	access:public
+trapframe::kernel_sp	proc.h	/^  \/*   8 *\/ unsigned long kernel_sp;     \/\/ top of process's kernel stack$/;"	m	struct:trapframe	access:public
+trapframe::kernel_trap	proc.h	/^  \/*  16 *\/ unsigned long kernel_trap;   \/\/ usertrap()$/;"	m	struct:trapframe	access:public
+trapframe::ra	proc.h	/^  \/*  40 *\/ unsigned long ra;$/;"	m	struct:trapframe	access:public
+trapframe::s0	proc.h	/^  \/*  96 *\/ unsigned long s0;$/;"	m	struct:trapframe	access:public
+trapframe::s1	proc.h	/^  \/* 104 *\/ unsigned long s1;$/;"	m	struct:trapframe	access:public
+trapframe::s10	proc.h	/^  \/* 240 *\/ unsigned long s10;$/;"	m	struct:trapframe	access:public
+trapframe::s11	proc.h	/^  \/* 248 *\/ unsigned long s11;$/;"	m	struct:trapframe	access:public
+trapframe::s2	proc.h	/^  \/* 176 *\/ unsigned long s2;$/;"	m	struct:trapframe	access:public
+trapframe::s3	proc.h	/^  \/* 184 *\/ unsigned long s3;$/;"	m	struct:trapframe	access:public
+trapframe::s4	proc.h	/^  \/* 192 *\/ unsigned long s4;$/;"	m	struct:trapframe	access:public
+trapframe::s5	proc.h	/^  \/* 200 *\/ unsigned long s5;$/;"	m	struct:trapframe	access:public
+trapframe::s6	proc.h	/^  \/* 208 *\/ unsigned long s6;$/;"	m	struct:trapframe	access:public
+trapframe::s7	proc.h	/^  \/* 216 *\/ unsigned long s7;$/;"	m	struct:trapframe	access:public
+trapframe::s8	proc.h	/^  \/* 224 *\/ unsigned long s8;$/;"	m	struct:trapframe	access:public
+trapframe::s9	proc.h	/^  \/* 232 *\/ unsigned long s9;$/;"	m	struct:trapframe	access:public
+trapframe::sp	proc.h	/^  \/*  48 *\/ unsigned long sp;$/;"	m	struct:trapframe	access:public
+trapframe::t0	proc.h	/^  \/*  72 *\/ unsigned long t0;$/;"	m	struct:trapframe	access:public
+trapframe::t1	proc.h	/^  \/*  80 *\/ unsigned long t1;$/;"	m	struct:trapframe	access:public
+trapframe::t2	proc.h	/^  \/*  88 *\/ unsigned long t2;$/;"	m	struct:trapframe	access:public
+trapframe::t3	proc.h	/^  \/* 256 *\/ unsigned long t3;$/;"	m	struct:trapframe	access:public
+trapframe::t4	proc.h	/^  \/* 264 *\/ unsigned long t4;$/;"	m	struct:trapframe	access:public
+trapframe::t5	proc.h	/^  \/* 272 *\/ unsigned long t5;$/;"	m	struct:trapframe	access:public
+trapframe::t6	proc.h	/^  \/* 280 *\/ unsigned long t6;$/;"	m	struct:trapframe	access:public
+trapframe::tp	proc.h	/^  \/*  64 *\/ unsigned long tp;$/;"	m	struct:trapframe	access:public
+type	fd.h	/^	enum {FD_NONE, FD_PIPE, FD_INODE, FD_DEVICE} type;$/;"	m	struct:file	typeref:enum:file::__anon2	access:public
+type	fs.h	/^	short type;		\/\/file directory device$/;"	m	struct:dinode	access:public
+type	fs.h	/^	unsigned int type;$/;"	m	struct:proghdr	access:public
+type	fs.h	/^	unsigned short type;$/;"	m	struct:elfhdr	access:public
+type	virt_disk.h	/^  unsigned int type; \/\/ VIRTIO_BLK_T_IN or ..._OUT$/;"	m	struct:virtio_blk_req	access:public
+uart_rd_char	uart_kern_test.c	/^char uart_rd_char()$/;"	f
+uart_send_c	printf.c	/^extern void uart_send_c(char c);$/;"	p	file:	signature:(char c)
+uart_send_c	uart_kern_test.c	/^void uart_send_c(char c)$/;"	f	signature:(char c)
+uart_send_str	uart_kern_test.c	/^void uart_send_str(char *s)$/;"	f	signature:(char *s)
+unused	virt_disk.h	/^  unsigned short unused;$/;"	m	struct:virtq_avail	access:public
+unused_buddy_mem	buddy.c	/^static struct buddy_blk *unused_buddy_mem()$/;"	f	file:
+used	virt_disk.c	/^  struct virtq_used *used;$/;"	m	struct:disk	typeref:struct:disk::virtq_used	file:	access:public
+used_idx	virt_disk.c	/^  unsigned short used_idx; \/\/ we've looked this far in used[2..NUM].$/;"	m	struct:disk	file:	access:public
+user_init	proc.c	/^void user_init()$/;"	f
+user_init	proc.h	/^void user_init();$/;"	p	signature:()
+user_trap	src_trap.c	/^void user_trap()$/;"	f
+user_trap	src_trap.h	/^void user_trap();$/;"	p	signature:()
+user_trap_ret	src_trap.c	/^void user_trap_ret()$/;"	f
+user_trap_ret	src_trap.h	/^void user_trap_ret();$/;"	p	signature:()
+userret	src_trap.c	/^extern void userret();$/;"	p	file:
+userret	trampoline.S	/^userret:$/;"	l
+uservec	src_trap.c	/^extern void uservec();$/;"	p	file:
+uservec	trampoline.S	/^uservec:$/;"	l
+uvmalloc	vm.c	/^unsigned long uvmalloc(pgt_t pagetable, unsigned long oldsz, unsigned newsz, int perm)$/;"	f	signature:(pgt_t pagetable, unsigned long oldsz, unsigned newsz, int perm)
+va_to_pa	vm.c	/^unsigned long va_to_pa(pgt_t pagetable, unsigned long va)$/;"	f	signature:(pgt_t pagetable, unsigned long va)
+vaddr	fs.h	/^	unsigned long vaddr;$/;"	m	struct:proghdr	access:public
+valid	fs.h	/^	int valid;$/;"	m	struct:inode	access:public
+valid	virt_disk.h	/^	int valid;$/;"	m	struct:buf	access:public
+version	fs.h	/^	unsigned int version;$/;"	m	struct:elfhdr	access:public
+virt_disk_init	virt_disk.c	/^void virt_disk_init(void)$/;"	f	signature:(void)
+virt_disk_init	virt_disk.h	/^void virt_disk_init();$/;"	p	signature:()
+virtio_blk_req	virt_disk.h	/^struct virtio_blk_req$/;"	s
+virtio_blk_req::reserved	virt_disk.h	/^  unsigned int reserved;$/;"	m	struct:virtio_blk_req	access:public
+virtio_blk_req::sector	virt_disk.h	/^  unsigned long sector;$/;"	m	struct:virtio_blk_req	access:public
+virtio_blk_req::type	virt_disk.h	/^  unsigned int type; \/\/ VIRTIO_BLK_T_IN or ..._OUT$/;"	m	struct:virtio_blk_req	access:public
+virtio_disk_rw	virt_disk.c	/^void virtio_disk_rw(struct buf *b, int write)$/;"	f	signature:(struct buf *b, int write)
+virtio_disk_rw	virt_disk.h	/^void virtio_disk_rw(struct buf* b, int write);$/;"	p	signature:(struct buf* b, int write)
+virtio_intr	src_trap.c	/^extern void virtio_intr();$/;"	p	file:
+virtio_intr	virt_disk.c	/^void virtio_intr()$/;"	f
+virtq_avail	virt_disk.h	/^struct virtq_avail$/;"	s
+virtq_avail::flags	virt_disk.h	/^  unsigned short flags;     \/\/ always zero$/;"	m	struct:virtq_avail	access:public
+virtq_avail::idx	virt_disk.h	/^  unsigned short idx;       \/\/ driver will write ring[idx] next$/;"	m	struct:virtq_avail	access:public
+virtq_avail::ring	virt_disk.h	/^  unsigned short ring[NUM]; \/\/ descriptor numbers of chain heads$/;"	m	struct:virtq_avail	access:public
+virtq_avail::unused	virt_disk.h	/^  unsigned short unused;$/;"	m	struct:virtq_avail	access:public
+virtq_desc	virt_disk.h	/^struct virtq_desc$/;"	s
+virtq_desc::addr	virt_disk.h	/^  unsigned long addr;$/;"	m	struct:virtq_desc	access:public
+virtq_desc::flags	virt_disk.h	/^  unsigned short flags;$/;"	m	struct:virtq_desc	access:public
+virtq_desc::len	virt_disk.h	/^  unsigned int len;$/;"	m	struct:virtq_desc	access:public
+virtq_desc::next	virt_disk.h	/^  unsigned short next;$/;"	m	struct:virtq_desc	access:public
+virtq_used	virt_disk.h	/^struct virtq_used$/;"	s
+virtq_used::flags	virt_disk.h	/^  unsigned short flags; \/\/ always zero$/;"	m	struct:virtq_used	access:public
+virtq_used::idx	virt_disk.h	/^  unsigned short idx;   \/\/ device increments when it adds a ring[] entry$/;"	m	struct:virtq_used	access:public
+virtq_used::ring	virt_disk.h	/^  struct virtq_used_elem ring[NUM];$/;"	m	struct:virtq_used	typeref:struct:virtq_used::virtq_used_elem	access:public
+virtq_used_elem	virt_disk.h	/^struct virtq_used_elem$/;"	s
+virtq_used_elem::id	virt_disk.h	/^  unsigned int id; \/\/ index of start of completed descriptor chain$/;"	m	struct:virtq_used_elem	access:public
+virtq_used_elem::len	virt_disk.h	/^  unsigned int len;$/;"	m	struct:virtq_used_elem	access:public
+wait	proc.c	/^int wait()$/;"	f
+wait	proc.h	/^int wait();$/;"	p	signature:()
+wakeup	proc.c	/^void wakeup(unsigned long *chan)$/;"	f	signature:(unsigned long *chan)
+wakeup	proc.h	/^void wakeup(unsigned long *chan);$/;"	p	signature:(unsigned long *chan)
+walk	vm.c	/^pte_t *walk(pgt_t pagetable, unsigned long va, int alloc)$/;"	f	signature:(pgt_t pagetable, unsigned long va, int alloc)
+wr	pipe.h	/^	int wr;$/;"	m	struct:pipe	access:public
+writable	fd.h	/^	char writable;$/;"	m	struct:file	access:public
+write_to_inode	fs.c	/^int write_to_inode(struct inode *ip, unsigned long dst, unsigned long src, unsigned long offset, unsigned int len, int to_where)$/;"	f	signature:(struct inode *ip, unsigned long dst, unsigned long src, unsigned long offset, unsigned int len, int to_where)
+write_to_inode	fs.h	/^int write_to_inode(struct inode *ip, unsigned long dst, unsigned long offset, unsigned int len, int to_where);$/;"	p	signature:(struct inode *ip, unsigned long dst, unsigned long offset, unsigned int len, int to_where)

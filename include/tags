@@ -1,0 +1,224 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADDR_MASK	def.h	15;"	d
+ADDR_OFFSET	def.h	13;"	d
+BAUD	uart.h	5;"	d
+CLINT	timer.h	6;"	d
+CLINT_MTIME	timer.h	7;"	d
+CLINT_TIMECMP	timer.h	8;"	d
+DDR_END	riscv.h	20;"	d
+DDR_START	riscv.h	19;"	d
+DLL	uart.h	9;"	d
+DLM	uart.h	11;"	d
+FCR	uart.h	12;"	d
+GET_ADDR_OFFSET	def.h	18;"	d
+GET_PAGETABLE	def.h	17;"	d
+GET_PPN	def.h	16;"	d
+IER	uart.h	10;"	d
+IER_RX_ENABLE	uart.h	21;"	d
+IER_TX_ENABLE	uart.h	22;"	d
+INSERT_FIELD	riscv.h	7;"	d
+INTERVAL	timer.h	10;"	d
+ISR	uart.h	13;"	d
+LCR	uart.h	14;"	d
+LSR	uart.h	16;"	d
+LSR_TX_IDLE	uart.h	20;"	d
+MAKE_SATP	def.h	21;"	d
+MASK	def.h	14;"	d
+MAXVA	riscv.h	25;"	d
+MAX_PROC	def.h	24;"	d
+MCR	uart.h	15;"	d
+MIE_MTIE	timer.h	12;"	d
+MIE_SSIE	timer.h	13;"	d
+MSR	uart.h	17;"	d
+MSTATUS_MPIE	riscv.h	16;"	d
+MSTATUS_MPP	riscv.h	15;"	d
+MSTATUS_MPP_SHIFT	riscv.h	14;"	d
+MSTATUS_SIE	riscv.h	17;"	d
+PAGE_SIZE	def.h	4;"	d
+PRV_M	riscv.h	12;"	d
+PRV_S	riscv.h	11;"	d
+PRV_U	riscv.h	10;"	d
+PTE_R	def.h	7;"	d
+PTE_U	def.h	10;"	d
+PTE_V	def.h	6;"	d
+PTE_W	def.h	8;"	d
+PTE_X	def.h	9;"	d
+PT_A0	asm/asm-offsets.h	24;"	d
+PT_A1	asm/asm-offsets.h	25;"	d
+PT_A2	asm/asm-offsets.h	26;"	d
+PT_A3	asm/asm-offsets.h	27;"	d
+PT_A4	asm/asm-offsets.h	28;"	d
+PT_A5	asm/asm-offsets.h	29;"	d
+PT_A6	asm/asm-offsets.h	30;"	d
+PT_A7	asm/asm-offsets.h	31;"	d
+PT_FP	asm/asm-offsets.h	9;"	d
+PT_GP	asm/asm-offsets.h	39;"	d
+PT_ORIG_A0	asm/asm-offsets.h	40;"	d
+PT_RA	asm/asm-offsets.h	8;"	d
+PT_S0	asm/asm-offsets.h	10;"	d
+PT_S1	asm/asm-offsets.h	11;"	d
+PT_S10	asm/asm-offsets.h	20;"	d
+PT_S11	asm/asm-offsets.h	21;"	d
+PT_S2	asm/asm-offsets.h	12;"	d
+PT_S3	asm/asm-offsets.h	13;"	d
+PT_S4	asm/asm-offsets.h	14;"	d
+PT_S5	asm/asm-offsets.h	15;"	d
+PT_S6	asm/asm-offsets.h	16;"	d
+PT_S7	asm/asm-offsets.h	17;"	d
+PT_S8	asm/asm-offsets.h	18;"	d
+PT_S9	asm/asm-offsets.h	19;"	d
+PT_SBADADDR	asm/asm-offsets.h	42;"	d
+PT_SCAUSE	asm/asm-offsets.h	43;"	d
+PT_SEPC	asm/asm-offsets.h	7;"	d
+PT_SIZE	asm/asm-offsets.h	6;"	d
+PT_SP	asm/asm-offsets.h	22;"	d
+PT_SSTATUS	asm/asm-offsets.h	41;"	d
+PT_T0	asm/asm-offsets.h	32;"	d
+PT_T1	asm/asm-offsets.h	33;"	d
+PT_T2	asm/asm-offsets.h	34;"	d
+PT_T3	asm/asm-offsets.h	35;"	d
+PT_T4	asm/asm-offsets.h	36;"	d
+PT_T5	asm/asm-offsets.h	37;"	d
+PT_T6	asm/asm-offsets.h	38;"	d
+PT_TP	asm/asm-offsets.h	23;"	d
+RHR	uart.h	7;"	d
+SATP_SV39	def.h	20;"	d
+SBI_CALL	riscv.h	246;"	d
+SPR	uart.h	18;"	d
+SSTATUS_SIE	riscv.h	235;"	d
+SSTATUS_SPIE	riscv.h	23;"	d
+SSTATUS_SPP	riscv.h	22;"	d
+THR	uart.h	8;"	d
+TRAMPOLINE	riscv.h	26;"	d
+UART0	uart.h	4;"	d
+__ASM_OFFSETS_H__	asm/asm-offsets.h	2;"	d
+__DEF_H	def.h	2;"	d
+__RISCV_H	riscv.h	2;"	d
+__TIMER_H	timer.h	2;"	d
+__UART_H	uart.h	2;"	d
+a0	asm/ptregs.h	/^	unsigned long a0;$/;"	m	struct:pt_regs	access:public
+a1	asm/ptregs.h	/^	unsigned long a1;$/;"	m	struct:pt_regs	access:public
+a2	asm/ptregs.h	/^	unsigned long a2;$/;"	m	struct:pt_regs	access:public
+a3	asm/ptregs.h	/^	unsigned long a3;$/;"	m	struct:pt_regs	access:public
+a4	asm/ptregs.h	/^	unsigned long a4;$/;"	m	struct:pt_regs	access:public
+a5	asm/ptregs.h	/^	unsigned long a5;$/;"	m	struct:pt_regs	access:public
+a6	asm/ptregs.h	/^	unsigned long a6;$/;"	m	struct:pt_regs	access:public
+a7	asm/ptregs.h	/^	unsigned long a7;$/;"	m	struct:pt_regs	access:public
+free_mem_in_page	def.h	/^int free_mem_in_page(void *pa_s, void *pa_e);$/;"	p	signature:(void *pa_s, void *pa_e)
+gp	asm/ptregs.h	/^	unsigned long gp;$/;"	m	struct:pt_regs	access:public
+intr_off	riscv.h	/^static inline void intr_off()$/;"	f	signature:()
+intr_on	riscv.h	/^static inline void intr_on()$/;"	f	signature:()
+kalloc	def.h	/^void *kalloc(void);$/;"	p	signature:(void)
+kfree	def.h	/^void kfree(void *p);$/;"	p	signature:(void *p)
+kp_free_mem	def.h	/^void kp_free_mem();$/;"	p	signature:()
+map_page	def.h	/^int map_page(pgt_t pagetable, unsigned long pa, unsigned long va,unsigned long size, int perm);$/;"	p	signature:(pgt_t pagetable, unsigned long pa, unsigned long va,unsigned long size, int perm)
+memcpy	def.h	/^void *memcpy(void *dst, const void *src, int n);$/;"	p	signature:(void *dst, const void *src, int n)
+memmove	def.h	/^void *memmove(char *dst, const char *src, int n);$/;"	p	signature:(char *dst, const char *src, int n)
+memset	def.h	/^void *memset(void *s, int val, unsigned int count);$/;"	p	signature:(void *s, int val, unsigned int count)
+orig_a0	asm/ptregs.h	/^	unsigned long orig_a0;$/;"	m	struct:pt_regs	access:public
+panic	def.h	/^void panic(char *s);$/;"	p	signature:(char *s)
+pgt_t	def.h	/^typedef unsigned long *pgt_t;$/;"	t
+printf	def.h	/^void printf(char *fmt, ...);$/;"	p	signature:(char *fmt, ...)
+pt_regs	asm/ptregs.h	/^struct pt_regs {$/;"	s
+pt_regs::a0	asm/ptregs.h	/^	unsigned long a0;$/;"	m	struct:pt_regs	access:public
+pt_regs::a1	asm/ptregs.h	/^	unsigned long a1;$/;"	m	struct:pt_regs	access:public
+pt_regs::a2	asm/ptregs.h	/^	unsigned long a2;$/;"	m	struct:pt_regs	access:public
+pt_regs::a3	asm/ptregs.h	/^	unsigned long a3;$/;"	m	struct:pt_regs	access:public
+pt_regs::a4	asm/ptregs.h	/^	unsigned long a4;$/;"	m	struct:pt_regs	access:public
+pt_regs::a5	asm/ptregs.h	/^	unsigned long a5;$/;"	m	struct:pt_regs	access:public
+pt_regs::a6	asm/ptregs.h	/^	unsigned long a6;$/;"	m	struct:pt_regs	access:public
+pt_regs::a7	asm/ptregs.h	/^	unsigned long a7;$/;"	m	struct:pt_regs	access:public
+pt_regs::gp	asm/ptregs.h	/^	unsigned long gp;$/;"	m	struct:pt_regs	access:public
+pt_regs::orig_a0	asm/ptregs.h	/^	unsigned long orig_a0;$/;"	m	struct:pt_regs	access:public
+pt_regs::ra	asm/ptregs.h	/^	unsigned long ra;$/;"	m	struct:pt_regs	access:public
+pt_regs::s0	asm/ptregs.h	/^	unsigned long s0;$/;"	m	struct:pt_regs	access:public
+pt_regs::s1	asm/ptregs.h	/^	unsigned long s1;$/;"	m	struct:pt_regs	access:public
+pt_regs::s10	asm/ptregs.h	/^	unsigned long s10;$/;"	m	struct:pt_regs	access:public
+pt_regs::s11	asm/ptregs.h	/^	unsigned long s11;$/;"	m	struct:pt_regs	access:public
+pt_regs::s2	asm/ptregs.h	/^	unsigned long s2;$/;"	m	struct:pt_regs	access:public
+pt_regs::s3	asm/ptregs.h	/^	unsigned long s3;$/;"	m	struct:pt_regs	access:public
+pt_regs::s4	asm/ptregs.h	/^	unsigned long s4;$/;"	m	struct:pt_regs	access:public
+pt_regs::s5	asm/ptregs.h	/^	unsigned long s5;$/;"	m	struct:pt_regs	access:public
+pt_regs::s6	asm/ptregs.h	/^	unsigned long s6;$/;"	m	struct:pt_regs	access:public
+pt_regs::s7	asm/ptregs.h	/^	unsigned long s7;$/;"	m	struct:pt_regs	access:public
+pt_regs::s8	asm/ptregs.h	/^	unsigned long s8;$/;"	m	struct:pt_regs	access:public
+pt_regs::s9	asm/ptregs.h	/^	unsigned long s9;$/;"	m	struct:pt_regs	access:public
+pt_regs::sbadaddr	asm/ptregs.h	/^	unsigned long sbadaddr;$/;"	m	struct:pt_regs	access:public
+pt_regs::scause	asm/ptregs.h	/^	unsigned long scause;$/;"	m	struct:pt_regs	access:public
+pt_regs::sepc	asm/ptregs.h	/^	unsigned long sepc;$/;"	m	struct:pt_regs	access:public
+pt_regs::sp	asm/ptregs.h	/^	unsigned long sp;$/;"	m	struct:pt_regs	access:public
+pt_regs::sstatus	asm/ptregs.h	/^	unsigned long sstatus;$/;"	m	struct:pt_regs	access:public
+pt_regs::t0	asm/ptregs.h	/^	unsigned long t0;$/;"	m	struct:pt_regs	access:public
+pt_regs::t1	asm/ptregs.h	/^	unsigned long t1;$/;"	m	struct:pt_regs	access:public
+pt_regs::t2	asm/ptregs.h	/^	unsigned long t2;$/;"	m	struct:pt_regs	access:public
+pt_regs::t3	asm/ptregs.h	/^	unsigned long t3;$/;"	m	struct:pt_regs	access:public
+pt_regs::t4	asm/ptregs.h	/^	unsigned long t4;$/;"	m	struct:pt_regs	access:public
+pt_regs::t5	asm/ptregs.h	/^	unsigned long t5;$/;"	m	struct:pt_regs	access:public
+pt_regs::t6	asm/ptregs.h	/^	unsigned long t6;$/;"	m	struct:pt_regs	access:public
+pt_regs::tp	asm/ptregs.h	/^	unsigned long tp;$/;"	m	struct:pt_regs	access:public
+pte_t	def.h	/^typedef unsigned long pte_t;$/;"	t
+r_mcause	riscv.h	/^static inline unsigned long r_mcause()$/;"	f	signature:()
+r_mhartid	riscv.h	/^static inline unsigned long r_mhartid()$/;"	f	signature:()
+r_mie	riscv.h	/^static inline unsigned long r_mie()$/;"	f	signature:()
+r_mstatus	riscv.h	/^static inline unsigned long r_mstatus()$/;"	f	signature:()
+r_scause	riscv.h	/^static inline unsigned long r_scause()$/;"	f	signature:()
+r_sepc	riscv.h	/^static inline unsigned long r_sepc()$/;"	f	signature:()
+r_sie	riscv.h	/^static inline unsigned long r_sie()$/;"	f	signature:()
+r_sip	riscv.h	/^static inline unsigned long r_sip()$/;"	f	signature:()
+r_sstatus	riscv.h	/^static inline unsigned long r_sstatus()$/;"	f	signature:()
+ra	asm/ptregs.h	/^	unsigned long ra;$/;"	m	struct:pt_regs	access:public
+read_reg	riscv.h	4;"	d
+s0	asm/ptregs.h	/^	unsigned long s0;$/;"	m	struct:pt_regs	access:public
+s1	asm/ptregs.h	/^	unsigned long s1;$/;"	m	struct:pt_regs	access:public
+s10	asm/ptregs.h	/^	unsigned long s10;$/;"	m	struct:pt_regs	access:public
+s11	asm/ptregs.h	/^	unsigned long s11;$/;"	m	struct:pt_regs	access:public
+s2	asm/ptregs.h	/^	unsigned long s2;$/;"	m	struct:pt_regs	access:public
+s3	asm/ptregs.h	/^	unsigned long s3;$/;"	m	struct:pt_regs	access:public
+s4	asm/ptregs.h	/^	unsigned long s4;$/;"	m	struct:pt_regs	access:public
+s5	asm/ptregs.h	/^	unsigned long s5;$/;"	m	struct:pt_regs	access:public
+s6	asm/ptregs.h	/^	unsigned long s6;$/;"	m	struct:pt_regs	access:public
+s7	asm/ptregs.h	/^	unsigned long s7;$/;"	m	struct:pt_regs	access:public
+s8	asm/ptregs.h	/^	unsigned long s8;$/;"	m	struct:pt_regs	access:public
+s9	asm/ptregs.h	/^	unsigned long s9;$/;"	m	struct:pt_regs	access:public
+sbadaddr	asm/ptregs.h	/^	unsigned long sbadaddr;$/;"	m	struct:pt_regs	access:public
+scause	asm/ptregs.h	/^	unsigned long scause;$/;"	m	struct:pt_regs	access:public
+sepc	asm/ptregs.h	/^	unsigned long sepc;$/;"	m	struct:pt_regs	access:public
+sfence_vma	riscv.h	/^static inline void sfence_vma()$/;"	f	signature:()
+sp	asm/ptregs.h	/^	unsigned long sp;$/;"	m	struct:pt_regs	access:public
+sstatus	asm/ptregs.h	/^	unsigned long sstatus;$/;"	m	struct:pt_regs	access:public
+t0	asm/ptregs.h	/^	unsigned long t0;$/;"	m	struct:pt_regs	access:public
+t1	asm/ptregs.h	/^	unsigned long t1;$/;"	m	struct:pt_regs	access:public
+t2	asm/ptregs.h	/^	unsigned long t2;$/;"	m	struct:pt_regs	access:public
+t3	asm/ptregs.h	/^	unsigned long t3;$/;"	m	struct:pt_regs	access:public
+t4	asm/ptregs.h	/^	unsigned long t4;$/;"	m	struct:pt_regs	access:public
+t5	asm/ptregs.h	/^	unsigned long t5;$/;"	m	struct:pt_regs	access:public
+t6	asm/ptregs.h	/^	unsigned long t6;$/;"	m	struct:pt_regs	access:public
+timer_init	timer.h	/^void timer_init();$/;"	p	signature:()
+tp	asm/ptregs.h	/^	unsigned long tp;$/;"	m	struct:pt_regs	access:public
+uart_init	uart.h	/^void uart_init();$/;"	p	signature:()
+uart_send_c	def.h	/^void uart_send_c(char c);$/;"	p	signature:(char c)
+uart_send_char	uart.h	/^void uart_send_char(char c);$/;"	p	signature:(char c)
+uart_send_str	def.h	/^void uart_send_str(char *s);$/;"	p	signature:(char *s)
+uart_send_string	uart.h	/^void uart_send_string(char *s);$/;"	p	signature:(char *s)
+w_medeleg	riscv.h	/^static inline void w_medeleg(unsigned long x)$/;"	f	signature:(unsigned long x)
+w_mepc	riscv.h	/^static inline void w_mepc(unsigned long x)$/;"	f	signature:(unsigned long x)
+w_mideleg	riscv.h	/^static inline void w_mideleg(unsigned long x)$/;"	f	signature:(unsigned long x)
+w_mie	riscv.h	/^static inline void w_mie(unsigned long x)$/;"	f	signature:(unsigned long x)
+w_mip	riscv.h	/^static inline void w_mip(unsigned long x)$/;"	f	signature:(unsigned long x)
+w_mstatus	riscv.h	/^static inline void w_mstatus(unsigned long x)$/;"	f	signature:(unsigned long x)
+w_mtvec	riscv.h	/^static inline void w_mtvec(unsigned long x)$/;"	f	signature:(unsigned long x)
+w_pmpaddr0	riscv.h	/^static inline void w_pmpaddr0(unsigned long x)$/;"	f	signature:(unsigned long x)
+w_pmpcfg0	riscv.h	/^static inline void w_pmpcfg0(unsigned long x)$/;"	f	signature:(unsigned long x)
+w_satp	riscv.h	/^static inline void w_satp(unsigned long x)$/;"	f	signature:(unsigned long x)
+w_sepc	riscv.h	/^static inline void w_sepc(unsigned long x)$/;"	f	signature:(unsigned long x)
+w_sie	riscv.h	/^static inline void w_sie(unsigned long x)$/;"	f	signature:(unsigned long x)
+w_sip	riscv.h	/^static inline void w_sip(unsigned long x)$/;"	f	signature:(unsigned long x)
+w_sstatus	riscv.h	/^static inline void w_sstatus(unsigned long x)$/;"	f	signature:(unsigned long x)
+w_stvec	riscv.h	/^static inline void w_stvec(unsigned long x)$/;"	f	signature:(unsigned long x)
+walk	def.h	/^pte_t *walk(pgt_t pagetable, unsigned long va, int alloc);$/;"	p	signature:(pgt_t pagetable, unsigned long va, int alloc)
+write_reg	riscv.h	5;"	d
