@@ -23,9 +23,30 @@ riscv64-unknown-elf-objdump -D -b binary -m riscv test.bin > disassembly_out
 
 ## 1.2 GDB的使用
 
-```bash=
-gdb -x ./gdbinit
+### 1. gdbinit文件
+
+使用gdbinit文件作为默认配置文件，帮你自动输入一些命令：
+
+```bash
+set disassemble-next-line on    
+target remote localhost:1234
+layout regs
+b _start
 ```
+
+要使当前的gdbinit文件生效需要将~/.gdbinit配置文件中加上当前文件的路径，否则gdbinit文件不能生效：
+
+```bash
+add-auto-load-safe-path /home/songyj/embedded_proj/xv6-riscv/.gdbinit                                                             add-auto-load-safe-path /home/songyj/embedded_proj/rk3399/.gdbinit
+```
+
+启动gdb并使用当前的配置文件：
+
+```bash
+gdb tui ./rk3399.elf -x ./.gdbinit
+```
+
+### 2. 具体命令
 
 examine: inspect memory contents
 
@@ -57,6 +78,10 @@ file ./user/first_test.out
 
 调试用户空间的程序也很重要：[debug用户程序](https://www.cnblogs.com/KatyuMarisaBlog/p/13727565.html)
 
+### 3. 更多
+
+[brown gdb cheatsheet](https://cs.brown.edu/courses/cs033/docs/guides/gdb.pdf)
+
 
 ## 1.3 Makefile
 
@@ -71,9 +96,9 @@ file ./user/first_test.out
 链接的代码段最前面的一定要自己指定好
 刚才重写了sbi的链接脚本 去掉了之前指定sbi_boot.s代码段在最前面的标号 直接所有用text表示结果gdb调试进不去 发现本来sbi_boot的代码段链接在sbi_main.c代码段后面去了
 
-### 1.4.1 ALIGN()
+### 1. ALIGN()
 
-### 1.4.2 在源文件中使用链接脚本当中的变量
+### 2. 在源文件中使用链接脚本当中的变量
 
 ```linkersciprt=
 _s_text = 0x80000000;
@@ -94,7 +119,7 @@ value_in_var = &_s_text;
 
 ## 1.5 汇编和C
 
-### 1.5.1 汇编
+### 1. 汇编
 
 #### 大端小端 big endian/little endian 讲的是字节不是位
 
@@ -151,7 +176,7 @@ Load Upper Immediate
     lui a5, 0x02
 ```
 
-### 1.5.1 C语法
+### 2. C语法
 
 函数指针
 
@@ -195,7 +220,7 @@ static uint64 (*syscalls[])(void) = {
 syscalls[num]();
 ```
 
-### 1.5.1 riscv的寄存器
+### 3. riscv的寄存器
 
 #### General reg
 
@@ -310,6 +335,10 @@ void back_trace()
     }
 }
 ```
+
+思考：为什么计算机的pc每次都是+4而不是1？
+
+指令长度4byte
 
 ### 1.5.2 static inline
 
@@ -635,6 +664,8 @@ uservec保存了所有
 
 ### 2.6 xv6 roadmap
 
+软件中断还有问题？scheduler如何切换回去 scheduler如何到usertrap
+
 ![xv6 roadmap](https://i.imgur.com/ITmIldM.png)
 
 ### 2.7 sleep()和wakeup()
@@ -687,7 +718,7 @@ uservec保存了所有
 
 ## 3.5 页表创建流程
 
-![](https://hackmd.io/_uploads/Hy5wrdXE3.png)
+![](/home/songyj/pics/pagetable_alloc.png)
 
 1. 分配4K空间，用于存放pagetable
    4096byte/8byte=512 有512条PTE
@@ -921,6 +952,29 @@ void user_trap()
 
 运行后可见打印了一个0
 ![](https://i.imgur.com/HeJ9s6n.png)
+
+### linux中的0号进程和1号进程
+
+**0号**进程是管理进程调度的内核进程（即现在运行**scheduler()**的这个进程），**1号**进程是第一个用户进程，user_init()初始化的init进程。在linux中使用
+
+```bash
+ps -p 1
+```
+
+查看1号进程的信息显示是systemd，systemd是新一代的init，内核进程会寻找init程序去执行，没找到就会启动shell。
+
+```c
+if (!try_to_run_init_process("/sbin/init") ||
+	    !try_to_run_init_process("/etc/init") ||
+	    !try_to_run_init_process("/bin/init") ||
+	    !try_to_run_init_process("/bin/sh"))
+		return 0;
+
+panic("No working init found.  Try passing init= option to kernel. "
+	  "See Linux Documentation/admin-guide/init.rst for guidance.");
+```
+
+[init](http://213.254.12.151/~rubini/docs/init/)
 
 ## 4.2 进程之间的切换 scheduling
 
@@ -1878,14 +1932,7 @@ int sys_sleep()
 * [ ] 对比linux
 
 ```c
-if (!try_to_run_init_process("/sbin/init") ||
-	    !try_to_run_init_process("/etc/init") ||
-	    !try_to_run_init_process("/bin/init") ||
-	    !try_to_run_init_process("/bin/sh"))
-		return 0;
 
-	panic("No working init found.  Try passing init= option to kernel. "
-	      "See Linux Documentation/admin-guide/init.rst for guidance.");
 ```
 
 uboot启动传参数
@@ -1914,8 +1961,6 @@ uboot跳到head.S
 之前实现的物理内存分配中只有一个单位--**页**，但是很明显我们还需要一种小内存的分配管理办法，不然这个内存分配的内部碎片就太大了，哪怕我们只需要malloc(1)也会分配4K的空间。
 
 * [ ] 完善内存管理
-
-
 
 
 
@@ -1948,3 +1993,5 @@ uboot跳到head.S
 [C](https://users.cs.cf.ac.uk/dave/C/)
 
 [更多的系统编程的idea](https://courses.cs.washington.edu/courses/csep551/19au/projects/)
+
+[bithacks](https://graphics.stanford.edu/~seander/bithacks.html)

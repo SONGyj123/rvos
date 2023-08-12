@@ -65,6 +65,10 @@ pgt_t proc_pagetable()
 	{
 		return 0;
 	}
+	else
+	{
+		memset(pagetable, 0, 4096);
+	}
 
 	return pagetable;
 }
@@ -204,6 +208,7 @@ found:
 	return pid;
 }
 
+//exit永远不会返回
 void exit(int code)
 {
 	//关闭文件
@@ -269,3 +274,4 @@ void wakeup(unsigned long *chan)
 		}
 	}
 }
+

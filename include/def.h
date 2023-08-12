@@ -1,6 +1,8 @@
 #ifndef __DEF_H
 #define __DEF_H
 
+#include "../src/buddy.h"
+
 #define PAGE_SIZE 4096
 
 #define PTE_V (1L << 0)

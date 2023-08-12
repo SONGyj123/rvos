@@ -34,6 +34,7 @@ int sys_write();
 int sys_read();
 int sys_open();
 int sys_mmap();
+int sys_exit();
 
 unsigned long systicks = 0;
 struct spinlock systicks_lock = {0};
@@ -66,6 +67,7 @@ static unsigned long (*syscall[])(void) = {
 	[0x06] sys_write,
 	[0x07] sys_open,
 	[0x08] sys_mmap,
+	[0x09] sys_exit,
 	[0x20] sys_print,
 };
 
@@ -366,7 +368,9 @@ int sys_open()
 	
 	get_inode(path, file_inode);		 
 
+	//寻找ftable[]的空位
 	open_file = file_alloc();
+	//寻找ofile[]的空位 并且填入获取到的ftable[n]的地址
 	fd = fd_alloc(open_file);
 
 	if(file_inode->content.type == TYPE_FILE)
@@ -375,9 +379,15 @@ int sys_open()
 		open_file->off = 0;
 	}
 
+	//设置inode指针 指向从path获取的inode
 	open_file->ip = file_inode;
 
 	return fd;
+}
+
+int sys_exit()
+{
+	return 0;
 }
 
 //void *mmap(void *addr, size_t length, int prot, int flags, int fd, off_t offset);
@@ -385,3 +395,5 @@ int sys_mmap()
 {
 	return 0;
 }
+
+

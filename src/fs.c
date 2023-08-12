@@ -329,20 +329,6 @@ void loadsec(pgt_t pagetable, struct inode *ip, unsigned long va, unsigned int o
 		pa = va_to_pa(pagetable, va+n);
 		{
 			read_from_inode(ip, pa, offset, 4096, TO_KERNEL);
-			/*
-			struct buf *blk_buf = kalloc();
-			blk_buf->dev = 0x01;
-			blk_buf->blockno = ip->content.data_address[i];
-			blk_buf->valid = 0x00;
-			blk_buf->refcnt = 0x01;
-
-			virtio_disk_rw(blk_buf, 0);
-			//wr_len = wr_len<res_sz ? wr_len : res_sz;
-			wr_len = sz;
-
-			memmove(pa, blk_buf->data+wr_off, wr_len);
-			kfree(blk_buf);
-			*/
 		}
 	}
 }

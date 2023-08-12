@@ -19,7 +19,7 @@ _start:
 //这些是放在data段的
 .global stack0
 stack0:
-	.skip 4096
+	.skip 8192
 .global stack1
 stack1:
 	.skip 4096

@@ -13,13 +13,15 @@ void kfree(void *p)
 	struct mem_linked_list *new_ptr;
 
 //	printf("free mem = %p\n", p);
-
+/*
 	memset(p, 0, PAGE_SIZE);
 
 	new_ptr = (struct mem_linked_list *)p;
 	new_ptr->nxt = ori_ptr;
 
 	ori_ptr = new_ptr;
+	*/
+	buddy_free(p);
 }
 
 //print all free mem
@@ -40,13 +42,14 @@ void kp_free_mem()
 void *kalloc(void)
 {
 	struct mem_linked_list *ptr = ori_ptr;
-
+/*
 	if(ori_ptr)
 	{
 		ori_ptr = ori_ptr->nxt;
 	}
-
 	return (void *)ptr;
+*/
+	return buddy_alloc(0x1000);
 }
 
 pte_t *walk(pgt_t pagetable, unsigned long va, int alloc)

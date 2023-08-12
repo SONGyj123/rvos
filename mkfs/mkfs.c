@@ -129,7 +129,7 @@ void iappend(unsigned int inum, void *xp, int n)
 	char *p = (char *)xp;
 	struct dinode dinode_buf;
 	unsigned int offset, fbn, actual_wr_len;
-	char indirect[BSIZE / sizeof(unsigned int)];
+	unsigned int indirect[BSIZE / sizeof(unsigned int)];
 	unsigned int blk_num;
 	char data_buf[BSIZE];
 

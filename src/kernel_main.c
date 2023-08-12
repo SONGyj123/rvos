@@ -25,12 +25,20 @@ int test_num = 0;
 
 struct spinlock print_lock;
 
-
 void kernel_main()
 {
 	int freed_page_num;
 	unsigned int n;
 	char *str = "hello kernel!\n";
+
+	unsigned long buddy_end = init_bin_tree_mem();
+	printf("                > BUDDY SYSTEM <\r\n");
+	printf("         BUDDY system use %x bytes\r\n", buddy_end-(unsigned long)_free_mem_start);
+	printf("         BUDDY system start at %x\r\n", _free_mem_start);
+	printf("          BUDDY system end at %x\r\n", buddy_end);
+	printf("\r\n");
+	printf("\r\n");
+		
 	print_lock.locked = 0;
 
 	//测试printf
@@ -46,10 +54,11 @@ void kernel_main()
 
 	//初始化空闲的内存
 	//4kb一个块用链表链接起来
-	freed_page_num = free_mem_in_page(&_free_mem_start, (unsigned long *)DDR_END);
+	freed_page_num = free_mem_in_page((unsigned long *)buddy_end, (unsigned long *)DDR_END);
 
-	printf("free_mem_start: %p free_mem_end: %p\n", &_free_mem_start, DDR_END);
+	printf("free_mem_start: %p free_mem_end: %p\n", buddy_end, DDR_END);
 	printf("page num: %d\n", freed_page_num);
+
 
 	n = ((unsigned long)DDR_END- (unsigned long)&_free_mem_start)/4096;
 
@@ -67,6 +76,7 @@ void kernel_main()
 	map_page((pgt_t)&_pgt_start, (unsigned long)0x80000000, (unsigned long)0x80000000, ((unsigned long)_trampoline-(unsigned long)0x80000000)/4096, PTE_R | PTE_W | PTE_X);
 	//map trampoline to 0x300001000
 	map_page((pgt_t)&_pgt_start, (unsigned long)_trampoline, (unsigned long)TRAMPOLINE, ((unsigned long)_etext-(unsigned long)_trampoline)/4096, PTE_R | PTE_W | PTE_X);
+
 	//map DDR to DDR
 	map_page((pgt_t)&_pgt_start, (unsigned long)_etext, (unsigned long)_etext, ((unsigned long)DDR_END-(unsigned long)_etext)/4096, PTE_R | PTE_W | PTE_X);
 	//map uart to 0x10000000
@@ -74,11 +84,9 @@ void kernel_main()
 	map_page((pgt_t)&_pgt_start, PLIC, PLIC, 0x1000, PTE_R | PTE_W | PTE_X);
 	map_page((pgt_t)&_pgt_start, VIRT_IO_BASE, VIRT_IO_BASE, 1, PTE_R | PTE_W | PTE_X);
 
-
 	//初始化每个内核栈
 	init_proc_kstack(_pgt_start);
 	uart_send_str("init proc kstack\n");
-
 
 	//开启mmu映射
 	uart_send_str("paging before\n");
